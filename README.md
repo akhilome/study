@@ -16,13 +16,13 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 ## Progress
 
-Current:     
-Courses Completed: 0  
-Total Points earned: 
+Current:
+Courses Completed: 
+Total Points earned:
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
-|  |  |  |  |
+| | |  |  |
 
 
 ## Get Job Ready - Python Edition
@@ -44,6 +44,13 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) 
 - [ ]  [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120) 
 - [ ]  [Database Mini-Courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about) - take all mini-courses
+
+
+## Miscellaneous Courses
+
+- [ ]  [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+- [ ]  [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
+
 
 ---
 
