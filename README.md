@@ -16,13 +16,13 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 ## Progress
 
-Current:
-Courses Completed: 
-Total Points earned:
+Current: [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+Courses Completed: 1
+Total Points earned: 100
 
 | Date Finished | Activity                  | Points | Links  |           
 | ------------- | ------------------------- | ------ | ------------------------------------------- |
-| | |  |  |
+| 05 - 01 - 2018 | Course 				    | 100	 |  [Try Git](https://try.github.io/levels/1/challenges/1) |
 
 
 ## Get Job Ready - Python Edition
@@ -31,7 +31,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 
 - [ ]  [College Algebra and Problem Solving](https://www.edx.org/course/college-algebra-problem-solving-asux-mat117x) 
 - [ ]  [Precalculus](https://www.edx.org/course/precalculus-asux-mat170x) 
-- [ ]  [Try Git](https://try.github.io/levels/1/challenges/1)
+- [x]  [Try Git](https://try.github.io/levels/1/challenges/1)
 - [ ]  [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)    
 - [ ]  [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
 - [ ]  [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/)    
