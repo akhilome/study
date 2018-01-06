@@ -16,14 +16,17 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 ## Progress
 
-Current: [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
-Courses Completed: 1
+Current Course: [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)  
+Courses Completed: 1  
 Total Points earned: 100
 
-| Date Finished | Activity                  | Points | Links  |           
-| ------------- | ------------------------- | ------ | ------------------------------------------- |
-| 05 - 01 - 2018 | Course 				    | 100	 |  [Try Git](https://try.github.io/levels/1/challenges/1) |
-
+| Date Finished | Activity                  | Points | Links  												   								|  
+| ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
+| 05-01-2018    | Course 				    | 100	 | [Try Git](https://try.github.io/levels/1/challenges/1)  								|
+| WIP 			| Course 					| 100 	 | [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) |
+| 				| 							| 		 | 													   	   								|
+| 				| 							| 		 | 														   								|
+|				| 							| 		 | 																						|
 
 ## Get Job Ready - Python Edition
 
