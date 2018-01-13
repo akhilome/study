@@ -18,14 +18,14 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 Current Course: [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)  
 Courses Completed: 1  
-Total Points earned: 100
+Total Points earned: 200
 
 | Date Finished | Activity                  | Points | Links  												   								|  
 | ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
 | 05-01-2018    | Course 				    | 100	 | [Try Git](https://try.github.io/levels/1/challenges/1)  								|
-| WIP 			| Course 					| 100 	 | [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) |
-| 				| 							| 		 | 													   	   								|
-| 				| 							| 		 | 														   								|
+| 13-01-2018 	| Course 					| 100 	 | [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) |
+| WIP		 	| Course					| 100	 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)						|
+| WIP			| Book						| 200	 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)	|
 |				| 							| 		 | 																						|
 
 ## Get Job Ready - Python Edition
@@ -51,7 +51,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 
 ## Miscellaneous Courses
 
-- [ ]  [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
+- [x]  [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 - [ ]  [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
 
 
