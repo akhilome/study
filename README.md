@@ -17,7 +17,7 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 ## Progress
 
 Current Course: [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)  
-Courses Completed: 1  
+Courses Completed: 2  
 Total Points earned: 200
 
 | Date Finished | Activity                  | Points | Links  												   								|  
