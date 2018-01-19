@@ -41,3 +41,21 @@ Interesting bullets:
 * **Colors**: Color representation in CSS can be either through any of the following methods: Keywords (e.g. red, blue), Hexadecimal notation (e.g. #ff000, #0f0), RGB/RGBa (e.g. rgba(0,255,0,.5)), HSL/HSLa(e.g. hsla(300, 50%, 25%, .3)).
 
 * **Lengths**: Length mesurements in CSS can be either Absolute (e.g. pixels -- px) or Relative (e.g. percentages -- %, em).
+
+## Lesson 4
+
+_Opening The Box Model_
+
+Interesting bullets:
+
+* The CSS _display_ property values include: _block_, _inline-block_, _inline_, _none_.
+
+* **The Box Model**: Every element on a pages is a rectangular box.
+
+* The _box-sizing_ property, introduced in CSS3, allows one to change exactly how the box model works.
+
+* The _box-sizing_ property accepts the following values:
+	- _content-box_: The default value (additive).
+	- _padding-box_: (deprecated)
+	- _border-box_: Incorporates both the size of the padding and borders around the element (best to use).
+
