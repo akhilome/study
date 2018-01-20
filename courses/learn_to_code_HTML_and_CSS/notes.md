@@ -68,3 +68,28 @@ Interesting bullets:
 	- `padding-box`: (deprecated)
 	- `border-box`: Incorporates both the size of the padding and borders around the element (best to use).
 
+## Lesson 5
+
+_Positioning Content_
+
+Interesting bullets:
+
+* One way to position elements on a page is to use the `float` property which accepts common values such as `left` and `right`.
+
+* To prevent unwanted layouts when positioning using `float`s, the `clear` property as well as _containing_ can be used.
+
+* The `clear` property accepts different values; commonly `left`, `right` or `both`
+	
+	+ `left` clears left floats, `right`, right floats and `both`, left and right floats.
+
+* The `clear` property should be applied to the element after the floated elements to return the HTML document to its 'normal' flow.
+
+* _Containing_ floats is not an explicit CSS property. It involves literally containing the floats with, say, a class and _self clearing_ the group (the class, that is) using the `:before` and `:after` pseudo elements. -- This explanation maybe be a bit vague, but this process, according to the course, is also commonly known as a **_clearfix_**
+
+* Positioning can also be done using the `display` property with the `inline-block` value.
+
+* Elements can also be uniquely positioned using the `position` property.
+
+* Every HTML element, by default, has a `position` value of `static`, which can be overwritten with the `relative` or `absolute` values.
+
+* Using `relative` or `absolute` in conjuction with the _box offset_ properties -- `bottom`, `left`, `right`, `top` -- gives one the 'power' to uniquely position a portion of the HTML document anywhere on the page.
