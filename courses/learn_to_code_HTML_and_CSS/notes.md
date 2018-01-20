@@ -20,9 +20,9 @@ _Getting to Know HTML_
 
 Interesting bullets:
 
-* _div_ and _span_ donot hold any semantic value. They exist for styling purposes only.
+* `div` and `span` donot hold any semantic value. They exist for styling purposes only.
 
-* _divs_ are _block_-level elements, while _spans_ are _inline_-level elements.
+* `div`s are `block`-level elements, while `span`s are `inline`-level elements.
 
 * Text-based elements include: strong, p, H1 through H6, em, e.t.c.
 
@@ -36,11 +36,20 @@ Interesting bullets:
 
 * **The Cascade**: CSS rules are interpretted from top to bottom. Styles literally cascade from the top of the stylesheet to the bottom.
 
-* **CSS Specificity**: Different CSS selectors (class, id, type) have different specificity weights as follows; type = 0-0-1, class = 0-1-0, id = 1-0-0. Generally, in terms of specificity weight, type < class < id.
+* **CSS Specificity**: Different CSS selectors (class, id, type) have different specificity weights as follows:
+	- type = 0-0-1
+	- class = 0-1-0 
+	- id = 1-0-0 
 
-* **Colors**: Color representation in CSS can be either through any of the following methods: Keywords (e.g. red, blue), Hexadecimal notation (e.g. #ff000, #0f0), RGB/RGBa (e.g. rgba(0,255,0,.5)), HSL/HSLa(e.g. hsla(300, 50%, 25%, .3)).
+* Generally, in terms of specificity weight, type < class < id.
 
-* **Lengths**: Length mesurements in CSS can be either Absolute (e.g. pixels -- px) or Relative (e.g. percentages -- %, em).
+* **Colors**: Color representation in CSS can be either through any of the following methods: 
+	- Keywords (e.g. red, blue) 
+	- Hexadecimal notation (e.g. #ff000, #0f0) 
+	- RGB/RGBa (e.g. rgba(0,255,0,.5))
+	- HSL/HSLa(e.g. hsla(300, 50%, 25%, .3))
+
+* **Lengths**: Length mesurements in CSS can be either `absolute` (e.g. pixels -- px) or `relative` (e.g. percentages -- %, em).
 
 ## Lesson 4
 
@@ -48,14 +57,14 @@ _Opening The Box Model_
 
 Interesting bullets:
 
-* The CSS _display_ property values include: _block_, _inline-block_, _inline_, _none_.
+* The CSS `display` property values include: `block`, `inline-block`, `inline`, `none`.
 
 * **The Box Model**: Every element on a pages is a rectangular box.
 
-* The _box-sizing_ property, introduced in CSS3, allows one to change exactly how the box model works.
+* The `box-sizing` property, introduced in CSS3, allows one to change exactly how the box model works.
 
-* The _box-sizing_ property accepts the following values:
-	- _content-box_: The default value (additive).
-	- _padding-box_: (deprecated)
-	- _border-box_: Incorporates both the size of the padding and borders around the element (best to use).
+* The `box-sizing` property accepts the following values:
+	- `content-box`: The default value (additive).
+	- `padding-box`: (deprecated)
+	- `border-box`: Incorporates both the size of the padding and borders around the element (best to use).
 
