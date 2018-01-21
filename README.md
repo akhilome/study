@@ -27,6 +27,7 @@ Total Points earned: 200
 | WIP		 	| Course					| 100	 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)						|
 | WIP			| Book						| 200	 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)	|
 | WIP			| Course					| 500	 | 	[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)		|
+| 21-01-2018	| Project 					| 200	 | [Website Homepage Redesign](https://techviews.com.ng/)								|
 
 ## Get Job Ready - Python Edition
 
