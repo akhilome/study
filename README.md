@@ -16,9 +16,9 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 ## Progress
 
-Current Course: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) & [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
-Courses Completed: 2  
-Total Points earned: 400
+**Current Course**: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) & [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)  
+**Courses Completed**: 2  
+**Total Points earned**: 400  
 
 | Date Finished | Activity                  | Points | Links  												   								|  
 | ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
