@@ -93,3 +93,16 @@ Interesting bullets:
 * Every HTML element, by default, has a `position` value of `static`, which can be overwritten with the `relative` or `absolute` values.
 
 * Using `relative` or `absolute` in conjuction with the _box offset_ properties -- `bottom`, `left`, `right`, `top` -- gives one the 'power' to uniquely position a portion of the HTML document anywhere on the page.
+
+## Lesson 6
+
+_Working with Typography_
+
+Prior to reading this section of the course, I was already pretty well-versed most of the concepts presented in this lesson. Properties like `font-weight`, `text-transform`, `letter-spacing`, `line-height`, and most css properties that have to do with manipulating the look of text on a html page are not foreign to me.
+
+A few properties/elements/concepts that were strange to me are bulleted below:
+
+* To include citations/quotes within a webpage, the following HTML elements are used:
+	- `<cite>`: to reference a creative work, author or resource.
+	- `<q>`: for short inline quotes.
+	- `<blockquote>`: for longer quotes.
