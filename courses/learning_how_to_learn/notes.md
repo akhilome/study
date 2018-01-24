@@ -20,4 +20,37 @@ _Interesting bullets from this week_:
 
 * "_All lot of success in Life is [due to] passion and persistence_". -- Dr. T. Sejnowski.
 
-*
+## Week 2
+
+_Interesting bullets from this week_
+
+* The use of chunks can making learning fairly easy. Chunking involving "grouping" related pieces of information together as chunks while learning such that remembering just one piece makes remembering the remaining pieces in the chunk almost effortless.
+
+* The first step of chunking is simply focusing your undivided attention on that which you wish to chunk.
+
+* Next, understand the basic idea you're trying to chunk.
+	Seeing something or thinking that you understand something doesn't mean you **actually** understand it. Only doing it **yourself** helps create the neural patterns that underlie true mastery.
+
+* Thirdly, try to gain **context**
+	Chunking involves learning **how** to use a problem solving technique. Context involves learning **when** to use that technique instead of some other technique.
+
+* Summarily, chunks are best built with:
+
+  - Focused attention,
+  - Understanding of the basic idea, and
+  - Practice to help gain mastery and a sense of the big picture context.
+
+* Recalling should be used rather than passively rereading when learning. Also, recalling material when you're outside your usual place of learning can help strengthen your grasp of the learned material.
+
+* The _Law of Serendipity_
+
+* Interleaving is important for building flexibility and creativity while learing.
+
+* To avoid the _Illusions of Competence_ in learnig:
+
+  - Test yourself to see if you **actually** understand what you think you understand.
+  - Minimize highlighting the material to fool yourself into thinking you understand a concept
+  - Mistakes are good and shouldn't be frowned at! They help show pitfalls or _weak links_ in your chunks and learning of a concept overall.
+  - Use **delibrate practice**! Practicing the easy stuff only fools you into thinking you actually understand a concept, when in reality you, sadly, don't.
+  
+* Einstellung is a "disease". Try to be flexible!
