@@ -106,3 +106,25 @@ A few properties/elements/concepts that were strange to me are bulleted below:
 	- `<cite>`: to reference a creative work, author or resource.
 	- `<q>`: for short inline quotes.
 	- `<blockquote>`: for longer quotes.
+
+## Lesson 7
+
+_Setting Backgrounds and Gradients_
+
+Interesting bullets:
+
+* Adding a background color to a HTML page can be done fairly easily by using the `background-color` or `background` CSS properties.
+
+* Adding a background image is also easy using either the `background` or `background-image` CSS properties. However to modify and/or properly define a setting for the background image, the following properties can be used:
+ - `background-repeat`
+ - `background-position`
+
+* Gradient backgrounds can either be `linear` or `radial`. They are added to a HTML document using the `background` or `background-image` CSS properties.
+
+* Linear gradients can be added using the `linear-gradient()` within the `background` or `background-image` CSS property. The function accepts two color values (Hex, rgba, hsla values). The first color value passed is the begining color value of the gradient and the second color value, the end color of the gradient. transition between the two color values within the gradient is handled by the browser.
+
+* Generally the color transition in a gradient occurs from top to bottom, but that can be changed using keywords within the gradient function value. Keywords such as `to right`, `to left top`, `to right bottom`, and degree values such as `300deg`, `270` can be used.
+
+* Like the `linear-gradient()` function, there's also the `radial-gradient()` function for Radial background gradients accepts values similar to the `linear-gradient()` function.
+
+* Radial gradients work from the inside to the out of the element.
