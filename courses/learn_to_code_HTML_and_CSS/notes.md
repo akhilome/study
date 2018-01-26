@@ -128,3 +128,24 @@ Interesting bullets:
 * Like the `linear-gradient()` function, there's also the `radial-gradient()` function for Radial background gradients accepts values similar to the `linear-gradient()` function.
 
 * Radial gradients work from the inside to the out of the element.
+
+## Lesson 8
+
+_Creating Lists_
+
+Intersting bullets:
+
+* Lists on HTML pages can be one of the the following three types:
+  - unordered lists `<ul>`
+  - ordered lists `<ol>`
+  - description lists `<dl>`
+
+* A `start` attribute used in an ordered list can be used to define at what point (e.g. number) the list starts from. For example `<ol start="20">` creates a list where the first `<li>` starts with the number 20 and progresses onward (i.e. 20, 21, 22, ...).
+
+* Also an attribute for `<ol>`, the `reversed` attribute, used like so; `<ol reversed>` turns the count into a 'count-down'. (i.e. 5, 4, 3, ...).
+
+* Still on `<ol>`s, there's also the `value` attribute used like so; `<ol> ... <li value="3"></li> ... </ol>`; which specifies the particular value for that `<li>`. `<li>`s following a `<li>` with a defined value would continue chronologically. For ex., say an `<li>` was given a `value` of 69, the next `<li>` would automatically have the `value` of 70 even if the `value` before the defined `value` was, say, 21.
+
+* Lists can be nested within each other.
+
+* The `list-style-type` CSS property can be used to modify the default `<li>` markers for `<ul>`s and `<ol>`s.
