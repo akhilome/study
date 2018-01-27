@@ -54,3 +54,30 @@ _Interesting bullets from this week_
   - Use **delibrate practice**! Practicing the easy stuff only fools you into thinking you actually understand a concept, when in reality you, sadly, don't.
   
 * Einstellung is a "disease". Try to be flexible!
+
+## Week 4
+
+_Interesting bullets from this week_
+
+* Chunking is related to how habits work
+
+* Habits may be thought of as having 4 parts, VIZ:
+  - The cue (Location, Time, How you feel, Reactions)
+  - The routine
+  - The reward
+  - The belief
+  
+* Focus on process not product to prevent procrastination.
+ 
+* To tackle procrastination, the following key pointers may help:
+
+  - Keep a planner journal (weekly & daily)
+  - Commit to certain routines and tasks daily
+  - Give yourself rewards for finishing a task, but delibrately delay the reward until the task is done.
+  - Watch for procrastination cues and try to 'beat' them.
+  - Have a belief in your new system, even if the tasks feels like drudgery initially.
+  - "Eat your frogs first".
+
+* Tap into the outstanding Visual and spatial memory systems the human brain possess.
+
+* The memory palace technique for remembering groups of unrelated items.
