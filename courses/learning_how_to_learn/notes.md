@@ -81,3 +81,34 @@ _Interesting bullets from this week_
 * Tap into the outstanding Visual and spatial memory systems the human brain possess.
 
 * Try to employ the use of the _memory palace_ technique for remembering groups of unrelated items.
+
+## Week 4
+
+_Interesting bullets from this week (the final one)_
+
+* Some tips for being a better learner:
+  - Exercise
+  - Practice makes perfect
+
+* Creating metaphors or analogies greatly enhances understanding of new concepts and remembering them.
+
+* "Change your thoughts, change your mind"
+
+* People learn by trying to make sense out of the information they perceive. They rarely learn anything complex simply by having someone else tell to them.
+
+* A Test Prep Checklist:
+    
+    - _Did you make a serious effort to understand the text?_
+    - _Did you work with classmates on homework problems?_
+    - _Did you attempt to outline every homework problem solution?_
+    - _Did you participate **actively** in homework group discussions?_
+    - _Did you consult with the instructor?_
+    - _Did you understand all of your homework problem solutions?_
+    - _Did you ask in class for explanations of homework problem solutions that weren't clear to you?_
+    - _If there was a study guide, did you carefully go through it before the tests and convince yourself you could do everything on it?_
+    - _Did you attempt to outline lots of problem solutions quickly?_
+    - _Did you go over the study guide and problems with classmates and quiz one another?_
+    - _If there was a review session before the test, did you attend it and ask questions about anything you weren't sure about?_ 
+    - _Did you get a reasonable night's sleep before the test?_
+
+* Make use of the _Hard Start - Jump to easy technique_ while taking tests.
