@@ -133,7 +133,7 @@ Interesting bullets:
 
 _Creating Lists_
 
-Intersting bullets:
+Interesting bullets:
 
 * Lists on HTML pages can be one of the the following three types:
   - unordered lists `<ul>`
@@ -149,3 +149,92 @@ Intersting bullets:
 * Lists can be nested within each other.
 
 * The `list-style-type` CSS property can be used to modify the default `<li>` markers for `<ul>`s and `<ol>`s.
+
+
+## Lesson 9
+
+_Adding Media_
+
+Interesting bullets:
+
+* Images can be added to a HTML page using the `<img>` inline HTML element.
+
+* Images, although appearing as inline elements by default in HTML pages, are usually set to a CSS `display` property value of `block`.
+
+* The `<audio></audio>` HTML element, introduced in HTML 5, can enable one to add audio files to the HTML webpage.
+
+* Attributes accepted by the `<audio>` element include: 
+
+	- `src`: like with the `img` element, the `src` attribute specifies the source URL of the audio file, whether local or otherwise.
+
+	- `autoplay`
+
+	- `controls`
+
+	- `loop`
+
+	- `preload`
+
+* `autoplay`, `controls`, and `loop` above are known as "Boolean attributes". They, according to the textbook, "don't require a stated value".
+
+* `<audio>`, by default, would not be visible on the webpage even when present. When the `autoplay` attribute value is present, the `src`ed audio file starts playing in the background on page-load albeit an "audio player" not visible on the webpage.
+
+  If, however, the `controls` attr. is added to `<audio>`, the player would become visible on the webpage having the default browser audio control properties: pause/play, seek, vol. up/vol. down.
+
+* The `loop` attr., while present, causes the audio file to play continuously from begining to end while the webpage is open.
+
+* The `preload` attr. accepts the values: `none` (preloads no information), `auto` (preloads all information), and `metadata` (preloads metadata information).
+
+* Another format used to embed audio to HTML pages involves including more than one source URL. This is mostly done to provide an array of file formats so at least one of the formats would be recognized by the browser. To use this format, a few things change in the syntax. 
+  	Instead of:
+		`<audio src="file.mp3" autoplay controls></audio>`
+	We now have:
+		`<audio autoplay controls>
+		  <source src="file.ogg" type="audio/ogg">
+		  <source src="file.mp3" type="audio/mpeg">
+		  <source src="file.wav" type="audio/wav">
+		</audio>`
+
+* Similar to the `<audio>` element introduced in HTML 5, there's also the `<video>` element which works similar to the audio element, but this time adds video to the HTML page. For example:
+	`<video src="earth.ogv" controls></video>`
+
+* Apart from the similar attributes such as `controls`, `autoplay`, `preload`, `src`, and `loop` which the `<audio>` and `<video>` attributes both use, there's also the __`poster`__ attribute, which is specific to `<video>`
+
+* The `poster` attr. allows one to specify an image to be used as something like a "placeholder" before the video starts playing. Think of it like a "video thumbnail". Usage is as follows:
+	`<video src="some-video.ogv" controls poster="some-thumb.jpg"></video>`
+
+* Just like with `<audio>`, `<video>` can also be written in the following form/syntax (using multiple `source`s) which allows room for the provision of fallbacks in case a specific browser (_looking at you IE_) doesn't, for some reason, support your 'default' video format:
+	`<video controls>
+		<source src="some-video.ogv" type="video/ogg">
+		<source src="some-video.mp4" type="video/mp4">
+		Some text specifying the video's <a href="#">download link</a>
+	</video>`
+
+* Another important HTML element to note is the `<iframe>` element.
+
+* `<iframe>`, when used, embeds another HTML page into your HTML page. `<iframe>`s can be used to embed media files such as maps, videos and images from other sites into your webpage.
+
+* A few default styles every `<iframe>` possesses which can be manipulated 'to taste' as HTML attributes includes:
+	- `frameborder`
+	- `width`
+	- `height`
+  like so:
+  	`<iframe src="some-url" frameborder="some-value" width="some-other-value" height="yep-more-values"></iframe>`
+
+* A few final important things to note about `<iframe>`s (for now):
+
+	- Links within the page href-ed within the `<iframe>` will open inside that frame leaving the page containing the frame unchanged.
+
+	- Styles applied to the page containing the frame would not affect the elements in the `<iframe>`. Those `<iframe>` elements play by their own rules (the rules specified at `src`).
+
+* And two more tags before this lesson ends:
+
+	- `<figure>`
+	- `<figcaption>`
+  
+  These semantically markup self-contained content or media within the HTML Page. They are used like so:
+  	`<figure>
+  		<img src="some-image.jpg">
+  		<figcaption>caption used in place of image alt</figcaption>
+  	</figure>`
+
