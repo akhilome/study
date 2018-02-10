@@ -187,16 +187,31 @@ Interesting bullets:
 
 * Another format used to embed audio to HTML pages involves including more than one source URL. This is mostly done to provide an array of file formats so at least one of the formats would be recognized by the browser. To use this format, a few things change in the syntax. 
   	Instead of:
-		`<audio src="file.mp3" autoplay controls></audio>`
-	We now have:
-		`<audio autoplay controls>
-		  <source src="file.ogg" type="audio/ogg">
-		  <source src="file.mp3" type="audio/mpeg">
-		  <source src="file.wav" type="audio/wav">
-		</audio>`
 
-* Similar to the `<audio>` element introduced in HTML 5, there's also the `<video>` element which works similar to the audio element, but this time adds video to the HTML page. For example:
-	`<video src="earth.ogv" controls></video>`
+```html 
+
+<audio src="file.mp3" autoplay controls></audio>
+
+```
+	We now have:
+
+```html
+
+<audio autoplay controls>
+	<source src="file.ogg" type="audio/ogg">
+	<source src="file.mp3" type="audio/mpeg">
+	<source src="file.wav" type="audio/wav">
+</audio>
+
+```
+
+* Similar to the `<audio>` element introduced in HTML 5, there's also the `<video>` element which works similar to the audio element, but this time adds video to the HTML page. For example:  
+
+```html
+
+<video src="earth.ogv" controls></video>
+
+```
 
 * Apart from the similar attributes such as `controls`, `autoplay`, `preload`, `src`, and `loop` which the `<audio>` and `<video>` attributes both use, there's also the __`poster`__ attribute, which is specific to `<video>`
 
@@ -204,11 +219,16 @@ Interesting bullets:
 	`<video src="some-video.ogv" controls poster="some-thumb.jpg"></video>`
 
 * Just like with `<audio>`, `<video>` can also be written in the following form/syntax (using multiple `source`s) which allows room for the provision of fallbacks in case a specific browser (_looking at you IE_) doesn't, for some reason, support your 'default' video format:
-	`<video controls>
-		<source src="some-video.ogv" type="video/ogg">
-		<source src="some-video.mp4" type="video/mp4">
-		Some text specifying the video's <a href="#">download link</a>
-	</video>`
+	
+```html
+
+<video controls>
+<source src="some-video.ogv" type="video/ogg">
+<source src="some-video.mp4" type="video/mp4">
+Some text specifying the video's <a href="#">download link</a>
+</video>
+
+```
 
 * Another important HTML element to note is the `<iframe>` element.
 
@@ -219,7 +239,12 @@ Interesting bullets:
 	- `width`
 	- `height`
   like so:
-  	`<iframe src="some-url" frameborder="some-value" width="some-other-value" height="yep-more-values"></iframe>`
+
+```html
+
+<iframe src="some-url" frameborder="some-value" width="some-other-value" height="yep-more-values"></iframe>
+
+```
 
 * A few final important things to note about `<iframe>`s (for now):
 
@@ -233,8 +258,13 @@ Interesting bullets:
 	- `<figcaption>`
   
   These semantically markup self-contained content or media within the HTML Page. They are used like so:
-  	`<figure>
-  		<img src="some-image.jpg">
-  		<figcaption>caption used in place of image alt</figcaption>
-  	</figure>`
+
+```html
+
+<figure>
+  	<img src="some-image.jpg">
+  	<figcaption>caption used in place of image alt</figcaption>
+</figure>
+
+```
 
