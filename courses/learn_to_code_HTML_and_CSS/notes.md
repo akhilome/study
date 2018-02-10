@@ -185,15 +185,15 @@ Interesting bullets:
 
 * The `preload` attr. accepts the values: `none` (preloads no information), `auto` (preloads all information), and `metadata` (preloads metadata information).
 
-* Another format used to embed audio to HTML pages involves including more than one source URL. This is mostly done to provide an array of file formats so at least one of the formats would be recognized by the browser. To use this format, a few things change in the syntax. 
-  	Instead of:
+* Another format used to embed audio to HTML pages involves including more than one source URL. This is mostly done to provide an array of file formats so at least one of the formats would be recognized by the browser. To use this format, a few things change in the syntax. Instead of:
 
 ```html 
 
 <audio src="file.mp3" autoplay controls></audio>
 
 ```
-	We now have:
+	
+We now have:
 
 ```html
 
@@ -216,16 +216,21 @@ Interesting bullets:
 * Apart from the similar attributes such as `controls`, `autoplay`, `preload`, `src`, and `loop` which the `<audio>` and `<video>` attributes both use, there's also the __`poster`__ attribute, which is specific to `<video>`
 
 * The `poster` attr. allows one to specify an image to be used as something like a "placeholder" before the video starts playing. Think of it like a "video thumbnail". Usage is as follows:
-	`<video src="some-video.ogv" controls poster="some-thumb.jpg"></video>`
+
+```html
+
+<video src="some-video.ogv" controls poster="some-thumb.jpg"></video>
+
+```
 
 * Just like with `<audio>`, `<video>` can also be written in the following form/syntax (using multiple `source`s) which allows room for the provision of fallbacks in case a specific browser (_looking at you IE_) doesn't, for some reason, support your 'default' video format:
 	
 ```html
 
 <video controls>
-<source src="some-video.ogv" type="video/ogg">
-<source src="some-video.mp4" type="video/mp4">
-Some text specifying the video's <a href="#">download link</a>
+	<source src="some-video.ogv" type="video/ogg">
+	<source src="some-video.mp4" type="video/mp4">
+	Some text specifying the video's <a href="#">download link</a>
 </video>
 
 ```
@@ -237,7 +242,8 @@ Some text specifying the video's <a href="#">download link</a>
 * A few default styles every `<iframe>` possesses which can be manipulated 'to taste' as HTML attributes includes:
 	- `frameborder`
 	- `width`
-	- `height`
+	- `height`  
+
   like so:
 
 ```html
