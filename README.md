@@ -17,8 +17,8 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 ## Progress
 
 **Current Course**: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) & [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)  
-**Courses Completed**: 2  
-**Total Points earned**: 400  
+**Courses Completed**: 3  
+**Total Points earned**: 900  
 
 | Date Finished | Activity                  | Points | Links  												   								|  
 | ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
@@ -26,7 +26,7 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 | 13-01-2018 	| Course 					| 100 	 | [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) |
 | WIP		 	| Course					| 100	 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)						|
 | WIP			| Book						| 200	 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)	|
-| WIP			| Course					| 500	 | 	[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)		|
+| 08-02-2018	| Course					| 500	 | 	[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)		|
 | 21-01-2018	| Project 					| 200	 | [Website Homepage Redesign](https://techviews.com.ng/)								|
 
 ## Get Job Ready - Python Edition
@@ -53,7 +53,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 ## Miscellaneous Courses
 
 - [x]  [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
-- [ ]  `[In progress]` [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
+- [x]  [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
 
 
 ---
