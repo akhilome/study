@@ -14,9 +14,7 @@ The title of the lesson is "Building your first web page". Here are a few bullet
 
 * Use css resets to ensure cross-browser compatibility.
 
-## Lesson 2
-
-_Getting to Know HTML_
+## Lesson 2: Getting to Know HTML
 
 Interesting bullets:
 
@@ -28,9 +26,7 @@ Interesting bullets:
 
 * Structural elements include: header, nav, article, aside, section, footer, e.t.c.
 
-## Lesson 3
-
-_Getting to Know CSS_
+## Lesson 3: Getting to Know CSS
 
 Interesting bullets:
 
@@ -51,9 +47,7 @@ Interesting bullets:
 
 * **Lengths**: Length mesurements in CSS can be either `absolute` (e.g. pixels -- px) or `relative` (e.g. percentages -- %, em).
 
-## Lesson 4
-
-_Opening The Box Model_
+## Lesson 4: Opening the Box Model
 
 Interesting bullets:
 
@@ -68,9 +62,8 @@ Interesting bullets:
 	- `padding-box`: (deprecated)
 	- `border-box`: Incorporates both the size of the padding and borders around the element (best to use).
 
-## Lesson 5
 
-_Positioning Content_
+## Lesson 5: Positioning Content
 
 Interesting bullets:
 
@@ -94,9 +87,10 @@ Interesting bullets:
 
 * Using `relative` or `absolute` in conjuction with the _box offset_ properties -- `bottom`, `left`, `right`, `top` -- gives one the 'power' to uniquely position a portion of the HTML document anywhere on the page.
 
-## Lesson 6
 
-_Working with Typography_
+## Lesson 6: Working With Typography
+
+Interesting bullets:
 
 Prior to reading this section of the course, I was already pretty well-versed most of the concepts presented in this lesson. Properties like `font-weight`, `text-transform`, `letter-spacing`, `line-height`, and most css properties that have to do with manipulating the look of text on a html page are not foreign to me.
 
@@ -107,9 +101,8 @@ A few properties/elements/concepts that were strange to me are bulleted below:
 	- `<q>`: for short inline quotes.
 	- `<blockquote>`: for longer quotes.
 
-## Lesson 7
 
-_Setting Backgrounds and Gradients_
+## Lesson 7: Setting Backgrounds and Gradients
 
 Interesting bullets:
 
@@ -129,9 +122,8 @@ Interesting bullets:
 
 * Radial gradients work from the inside to the out of the element.
 
-## Lesson 8
 
-_Creating Lists_
+## Lesson 8: Creating Lists
 
 Interesting bullets:
 
@@ -151,9 +143,7 @@ Interesting bullets:
 * The `list-style-type` CSS property can be used to modify the default `<li>` markers for `<ul>`s and `<ol>`s.
 
 
-## Lesson 9
-
-_Adding Media_
+## Lesson 9: Adding Media
 
 Interesting bullets:
 
