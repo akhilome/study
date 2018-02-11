@@ -434,3 +434,124 @@ Interesting bullets:
 
   - e.t.c. (check MDN for more please.)
 
+
+## Lesson 11: Organizing Data with Tables
+
+Interesting bullets:
+
+* Tables, in general, comprise data which is contained in columns and rows. To create a table in HTML, the following elements are required:  
+
+  - `<table>`,  
+  - `<tr>`: table row,  
+  - `<th>`: table header,  
+  - `<td>`: table data
+
+* A 'general' format for HTML tables follow this:
+
+```html
+
+<table>
+	<tr>
+		<th>Heading 1</th>
+		<th>Heading 2</th>
+		<th>Heading 3</th>
+		<th>Heading 4</th>
+	</tr>
+
+	<tr>
+		<td>Text 1.1</td>
+		<td>Text 1.2</td>
+		<td>Text 1.3</td>
+		<td>Text 1.4</td>	
+	</tr>
+
+	<tr>
+		<td>Text 2.1</td>
+		<td>Text 2.2</td>
+		<td>Text 2.3</td>
+		<td>Text 2.4</td>
+	</tr>
+
+	<tr>
+		<td>Text 3.1</td>
+		<td>Text 3.2</td>
+		<td>Text 3.3</td>
+		<td>Text 3.4</td>
+	</tr>
+
+</table>
+
+```
+
+* To provide more context, the `scope` attr. may be used within `<th>` to identify exact what content (row/column) the `<th>` is applicable to. `scope` accepts the following values:  
+
+  - `col`  
+  - `row`  
+  - `colgroup`  
+  - `rowgroup`  
+
+* To organize the data on the table and its structure, the following elements are used:
+
+  - `<caption>Some text here</caption>`: provides caption or title for the table.  
+  - `<thead> ... </thead>`: wraps the heading row to denote the head.  
+  - `<tbody></tbody>`: contains primary table data.  
+  - `<tfoot></tfoot>`: use your fucking imagination for what this does.
+
+* Putting together what we've looked at so far, we have:
+
+```html 
+
+<table>
+
+	<caption>Placeholder Text</caption>
+
+	<thead>
+		<tr>
+			<th> ... </th>
+
+			...
+
+		</tr>
+	</thead>
+
+	<tbody>
+		<tr>
+			<td> ... </td>
+
+			...
+
+		</tr>
+
+		...
+
+	</tbody>
+
+	<tfoot>
+		<tr>
+			<td> ... </td>
+
+			... 
+
+		</tr>
+
+		...
+
+	</tfoot>
+
+</table>
+
+```
+
+* The `colspan` or `rowspan` attr. used within `<th>` or `<td>` can be used to combine multiple cells in columns or rows. I.e. A cell with a `colspan` value of 3 (`colspan="3"`) would span 3 columns.  
+
+* For styling tables with CSS, the following properties would come in handy:  
+
+  - `border-collapse`: accepts `collapse`, `separate`, and `inherit`, values.  
+  - `border-spacing`: only works when `border-collapse` is `separate`  
+
+* More table styling stuff to take note of:  
+
+  - Table striping: involves giving table rows alternating backgroud color using CSS for improved legibility.
+  - Alignment of text within cells. This can be done using the `text-align` or `vertical-align` CSS properties.  
+
+* `vertical-align` only works with `inline` and `table-cell` elements. Using it with `inline-block`, `block` or other element levels won't work. `vertical-align` accepts an array of values, a few of which include; `top`, `middle`, `bottom`.  
