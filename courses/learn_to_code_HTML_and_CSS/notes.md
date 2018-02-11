@@ -264,3 +264,173 @@ We now have:
 
 ```
 
+## Lesson 10: Building Forms
+
+Interesting bullets: 
+
+* To initialize/add a form to a HTML page, the `<form></form>` element is used and it element accepts different attributes, two of  which include: 
+  - `action`: contains the URL to which information contained within the form would be sent.
+  - `method`: specifies the "method" the browser should use for sending the information collected from the form to the server for processing.
+
+* For gathering text inputs from users the following elements and attributes are applicable:
+
+ - `<input>`: A self-closing HTML element which uses a `type` attribute to note what kind of information is to be collected by the form field.  
+   - `name`: a second common attr. used together with `type` in `<input>` which specifies the name of the control being collected by that text field.  
+  
+  To tie these all together, here's an illustration:  
+
+```html 
+
+<input type="text" name="username">
+
+```
+
+* Asides the `text` value parsed into the `type` attribute above, some other 'useful' values (mostly introduced by HTML 5) include:  
+
+  - `date`,   
+  - `datetime`,
+  - `email`,  
+  - `month`,  
+  - `number`,  
+  - `time`,  
+  - `url`,  e.t.c.
+
+* So say, for example, I was trynna get the email, date of birthday and telephone number from a user, my HTML form would have 3 input fields like so:  
+
+```html 
+
+<form action="#" method="post">
+
+<input type="email" name="useremail">
+<input type="date" name="userdob">
+<input type="tel" name="usertel">
+
+</form>
+
+```
+
+* Apart from the above discussed method of capturing 'text' input from the user, there's also the `<textarea></textarea>` way. This is mainly used for collecting text which span multiple lines and unlike the `<input>` element, this one doesn't use the `type` attribute, just `name`.
+
+* Applying the `<textarea>` element to a HTML page is done like so:  
+
+```html
+
+<textarea name="userstory">Some Placeholder Text</textarea>
+
+```
+
+* Another form of data collection using HTML forms is the use of multiple choice inputs and menus. These exist in HTML as:  
+  - Radio Buttons `type="radio"`  
+  - Check Boxes `type="checkbox"`  
+  - Drop-down Lists `<select><option> ... </option> ... </select>`  
+  - Drop-down lists with multiple selections `<select multiple> ... </select>`  
+
+  Let's discuss each one and show their corresponding syntax.
+
+* Radio buttons allows for the user to pick a value from a set of multiple choice values defined by the author of the page. In addition to the `type` and `name` attributes, a radio input also features a `value` attribute and a `checked` boolean attribute. `checked` preselects a specific radio input. The syntax is as thus:
+
+```html
+
+<input type="radio" name="month" value="June" checked> June
+<input type="radio" name="month" value="July"> July
+<input type="radio" name="month" value="August"> August
+
+```
+
+* One **important** thing to note in the syntax is that for a group of radio buttons must have the same `name` value (like `name="month"` above).
+
+* Check Boxes are very similar to Radio buttons only that they give the user the capability of selecting more than one option at a time. Syntax:  
+
+```html 
+
+<input type="checkbox" name="food" value="None" checked> None
+<input type="checkbox" name="food" value="Egg"> Egg
+<input type="checkbox" name="food" value="Fish"> Fish
+<input type="checkbox" name="food" Value="Meat"> Meat
+
+```
+
+* Drop-down lists Syntax:
+
+```html 
+
+<select name="gender">
+	<option value="None" selected>None</option>
+	<option value="Male">Male</option>
+	<option value="Female">Female</option>
+</select>
+
+```
+
+* Adding a `multiple` boolean attribute to the `<select>` element enables multiple selection for the user. 
+
+* To submit a form, the `submit` input (see below) is used.
+
+```html
+
+<input type="submit" name="submit" value="Send">
+
+```
+
+  - Here, the value parsed into the `value` attri. specifies the text that'll be on the submit button.
+
+* Other inputs include:
+
+  - Hidden inputs: `<input type="hidden" name="tracking-code" value="some-value">`
+
+  - File input: `<input type="file" name="file">`
+
+* For organizing form elements, `label`, `fieldset` and `legend` are used so forms created can be more meaningful to the user.
+
+* `label` provides captions or headings for form controls. e.g.  
+
+```html
+
+...
+
+<label>
+	<input type="checkbox" name="month" value="April"> April
+</label>
+<label>
+	<input type="checkbox" name="month" value="May" checked> May
+</label>
+<label>
+	<input type="checkbox" name="month" value="June"> June
+</label>
+
+...
+
+```
+
+* `fieldset` groups form controls and labels into organized sections. E.g.  
+
+```html
+
+...
+
+<fieldset>
+
+<label>
+	...
+</label>
+
+...
+
+</fieldset>
+
+...
+
+```
+
+* `legend` provides caption (or heading) for `fieldset`
+
+* ___Even more___ form and input attributes include:  
+
+  - `disabled`: A boolean attribute which disables an input field. I.e. renders the field inaccessible to the user.
+
+  - `placeholder`: accepts a value which serves as a, _wait for it_, placeholder for the form controls.
+
+  - `required`: Another boolean attribute which makes sure a control is filled before submitting.
+
+  - e.t.c. (check MDN for more please.)
+
