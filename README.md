@@ -16,18 +16,20 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 ## Progress
 
-**Current Course**: [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/) & [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)  
-**Courses Completed**: 3  
-**Total Points earned**: 900  
+**Current Course**: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x)    
+**Courses Completed**: 4  
+**Total Points earned**: 1000  
 
 | Date Finished | Activity                  | Points | Links  												   								|  
 | ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
 | 05-01-2018    | Course 				    | 100	 | [Try Git](https://try.github.io/levels/1/challenges/1)  								|
 | 13-01-2018 	| Course 					| 100 	 | [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) |
-| WIP		 	| Course					| 100	 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)						|
+| 12-02-2018 	| Course					| 100	 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)						|
 | WIP			| Book						| 200	 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)	|
-| 08-02-2018	| Course					| 500	 | 	[Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)		|
+| 08-02-2018	| Course					| 500	 | [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)		|
 | 21-01-2018	| Project 					| 200	 | [Website Homepage Redesign](https://techviews.com.ng/)								|
+| WIP 			| Course  					| 500	 | [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) |
+|  				|   						| 		 | 																						|
 
 ## Get Job Ready - Python Edition
 
@@ -36,8 +38,8 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  [College Algebra and Problem Solving](https://www.edx.org/course/college-algebra-problem-solving-asux-mat117x) 
 - [ ]  [Precalculus](https://www.edx.org/course/precalculus-asux-mat170x) 
 - [x]  [Try Git](https://try.github.io/levels/1/challenges/1)
-- [ ]  `[In progress]` [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)    
-- [ ]  [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
+- [x]  [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)    
+- [ ]  `[In progress]` [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
 - [ ]  [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/)    
 - [ ]  [Data Visualization and D3.js](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
 - [ ]  [MongoDB for Developers](https://university.mongodb.com/courses/M101P/about) - note: this course is only intermittently offered, sign up at the start of the Tier, then proceed to the other courses and return to this one when it's in session 

@@ -554,4 +554,4 @@ Interesting bullets:
   - Table striping: involves giving table rows alternating backgroud color using CSS for improved legibility.
   - Alignment of text within cells. This can be done using the `text-align` or `vertical-align` CSS properties.  
 
-* `vertical-align` only works with `inline` and `table-cell` elements. Using it with `inline-block`, `block` or other element levels won't work. `vertical-align` accepts an array of values, a few of which include; `top`, `middle`, `bottom`.  
+* `vertical-align` only works with `inline` and `table-cell` elements. Using it with `inline-block`, `block` or other element levels won't work. `vertical-align` accepts an array of values, a few of which include; `top`, `middle`, `bottom`.
