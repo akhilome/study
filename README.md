@@ -18,18 +18,19 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 **Current Course**: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x)    
 **Courses Completed**: 4  
-**Total Points earned**: 1000  
+**Total Points earned**: 1200  
 
 | Date Finished | Activity                  | Points | Links  												   								|  
 | ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
 | 05-01-2018    | Course 				    | 100	 | [Try Git](https://try.github.io/levels/1/challenges/1)  								|
 | 13-01-2018 	| Course 					| 100 	 | [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) |
 | 12-02-2018 	| Course					| 100	 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)						|
-| WIP			| Book						| 200	 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)	|
+| 19-02-2018	| Book						| 200	 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)	|
 | 08-02-2018	| Course					| 500	 | [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)		|
 | 21-01-2018	| Project 					| 200	 | [Website Homepage Redesign](https://techviews.com.ng/)								|
 | WIP 			| Course  					| 500	 | [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) |
-|  				|   						| 		 | 																						|
+| WIP			| Book						| 200	 | [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) |
+|			  	| 							| 		 | 																						|
 
 ## Get Job Ready - Python Edition
 
@@ -64,8 +65,8 @@ Work through these courses, read the books listed below, and frequently suppleme
 ## Book Suggestions
 - [ ]  [College Algebra](https://openstax.org/details/books/college-algebra)
 - [ ]  [Precalculus](https://openstax.org/details/books/precalculus)  
-- [ ]  `[In progress]` [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)    
-- [ ]  [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) 
+- [x]  [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)    
+- [ ]  `[In progress]` [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) 
 - [ ]  [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
 - [ ]  [You Don't Know JS: Types & Grammar](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar)   
 - [ ]  [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance) 
