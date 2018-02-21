@@ -21,3 +21,23 @@ console.log(anArr) // outputs [1,3,4,5]
 
 ```
 
+* To fully imbibe **scope**, the concept of 'circles and arrows' should be employed. Simply put, once a function has been written, a circle should be drawn around it and arrows can only go out, not in. These arrows going out are simply the function trying to use a variable outside its 'circle'.
+
+* A function can be a property of an object. A function inside of an object is normally called a **method** in JS. Illustrating:  
+
+```javascript
+
+var person = {
+	name: "Kizito",
+	country: "Nigeria",
+	sayCountry: function() {
+		console.log(this.country);
+	}
+}
+
+person.sayCountry(); // outputs "Nigeria"
+
+```
+
+The `this` keyword used in the function within the "person" object refers to the person object (I don't know if that sentence makes sense). So, just like `person.name` would output "Kizito", `this.name` within a function in the object also outputs "Kizito".  
+
