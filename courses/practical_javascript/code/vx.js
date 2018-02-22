@@ -19,8 +19,25 @@
 var todoList = {
 	todos: [], // v3r1: It should store the todos array on an object
 	displayTodos: function() {
+		/* deprecated
+
 		// v3r2: It should have a displayTodos method
 		console.log("Current Todos: ", this.todos);
+
+		*/
+		console.log("Current Todos:");
+		if (this.todos.length === 0) {
+			console.log("Woot! Nothing to do."); // v5r2: .displayTodos should tell you if .todos is empty
+		} else {
+			for (var i = 0; i < this.todos.length; i++) {
+				// v5r3: .displayTodos should show completed
+				if (this.todos[i].completed === true) {
+					console.log("(x) ", this.todos[i].todoText /* v5r1: .displayTodos should show .todoText */);
+				} else {
+					console.log("( ) ", this.todos[i].todoText);
+				};
+			};
+		};
 	},
 	addTodo: function(todo) {
 		/* deprecated
