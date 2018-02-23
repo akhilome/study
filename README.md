@@ -16,7 +16,7 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 ## Progress
 
-**Current Course**: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x)    
+**Current Course(s)**: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) & [Pratical Javascript](https://watchandcode.com/p/practical-javascript)    
 **Courses Completed**: 4  
 **Total Points earned**: 1200  
 
