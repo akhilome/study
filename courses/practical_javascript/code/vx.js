@@ -129,5 +129,31 @@ var handlers = {
 	},
 	toggleAll: function () {
 		todoList.toggleAll();
+	},
+	// v8r1: It should have working controls for .addTodo
+	addTodo: function() {
+		var addTodoInputText = document.getElementById('addTodoInputText');
+		todoList.addTodo(addTodoInputText.value);
+		addTodoInputText.value = '';
+	},
+	// v8r2: It should have working controls for .changeTodo
+	changeTodo: function() {
+		var changeTodoInputPosition = document.getElementById('changeTodoInputPosition');
+		var changeTodoInputText = document.getElementById('changeTodoInputText');
+		todoList.changeTodo(changeTodoInputPosition.valueAsNumber, changeTodoInputText.value);
+		changeTodoInputPosition.value = '';
+		changeTodoInputText.value = '';
+	},
+	// v8r3: It should have working controls for .deleteTodo
+	deleteTodo: function() {
+		var deleteTodoInputPosition = document.getElementById('deleteTodoInputPosition');
+		todoList.deleteTodo(deleteTodoInputPosition.valueAsNumber);
+		deleteTodoInputPosition.value = '';
+	},
+	// v8r4: It should have working controls for .toggleCompleted
+	toggleCompleted: function() {
+		var toggleCompletedInputPosition = document.getElementById('toggleCompletedInputPosition');
+		todoList.toggleCompleted(toggleCompletedInputPosition.valueAsNumber);
+		toggleCompletedInputPosition.value = '';
 	}
 }

@@ -14,10 +14,35 @@
 
 	-->
 	<!-- Refactor -->
-	
-	<button onclick="handlers.displayTodos()">Display Todos</button>
-	<button onclick="handlers.toggleAll()">Toggle All</button>
+	<div>
+		<button onclick="handlers.displayTodos()">Display Todos</button>
+		<button onclick="handlers.toggleAll()">Toggle All</button>
+	</div>
 
+	<!-- v8r1: It should have working controls for .addTodo -->
+	<div>
+		<button onclick="handlers.addTodo()">Add Todo</button>
+		<input id="addTodoInputText" type="text">
+	</div>
+
+	<!-- v8r2: It should have working controls for .changeTodo -->
+	<div>
+		<button onclick="handlers.changeTodo()">Change Todo</button>
+		<input id="changeTodoInputPosition" type="number">
+		<input id="changeTodoInputText" type="text">
+	</div>
+
+	<!-- v8r3: It should have working controls for .deleteTodo -->
+	<div>
+		<button onclick="handlers.deleteTodo()">Delete Todo</button>
+		<input id="deleteTodoInputPosition" type="number">
+	</div>
+
+	<!-- v8r4: It should have working controls for .toggleCompleted -->
+	<div>
+		<button onclick="handlers.toggleCompleted()">Toggle Completed</button>
+		<input id="toggleCompletedInputPosition" type="number">
+	</div>
 
 	<script src="vx.js" type="text/javascript"></script>
 </body>
