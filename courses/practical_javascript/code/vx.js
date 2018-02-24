@@ -100,3 +100,19 @@ var todoList = {
 		this.displayTodos();
 	}
 }
+
+// v7r2 Clicking "Display Todos" should run todoList.displayTodos();
+
+var displayTodosButton = document.getElementById('displayTodosButton');
+
+displayTodosButton.addEventListener('click', function() {
+	todoList.displayTodos();
+});
+
+// v7r3 Clicking "Toggle All" should run todoList.toggleAll();
+
+var toggleAllButton = document.getElementById('toggleAllButton');
+
+toggleAllButton.addEventListener('click', function() {
+	todoList.toggleAll();
+});
