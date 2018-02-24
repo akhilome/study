@@ -101,6 +101,8 @@ var todoList = {
 	}
 }
 
+/* deprecated
+
 // v7r2 Clicking "Display Todos" should run todoList.displayTodos();
 
 var displayTodosButton = document.getElementById('displayTodosButton');
@@ -116,3 +118,16 @@ var toggleAllButton = document.getElementById('toggleAllButton');
 toggleAllButton.addEventListener('click', function() {
 	todoList.toggleAll();
 });
+
+*/
+
+// v8r0 Create a new object to house all methods
+
+var handlers = {
+	displayTodos: function () {
+		todoList.displayTodos();
+	},
+	toggleAll: function () {
+		todoList.toggleAll();
+	}
+}
