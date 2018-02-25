@@ -141,10 +141,10 @@ var handlers = {
 		view.displayTodos();
 	},
 	// v8r3: It should have working controls for .deleteTodo
-	deleteTodo: function() {
-		var deleteTodoInputPosition = document.getElementById('deleteTodoInputPosition');
-		todoList.deleteTodo(deleteTodoInputPosition.valueAsNumber);
-		deleteTodoInputPosition.value = '';
+	deleteTodo: function(position) {
+		// var deleteTodoInputPosition = document.getElementById('deleteTodoInputPosition');
+		todoList.deleteTodo(position);
+		// deleteTodoInputPosition.value = '';
 		view.displayTodos();
 	},
 	// v8r4: It should have working controls for .toggleCompleted
@@ -176,9 +176,34 @@ var view = {
 			} else {
 				todosLi.textContent = '( ) ' + todoList.todos[i].todoText;
 			}
+			// v10r2: There should be a delete button for each todo
+			todosLi.appendChild(this.createDeleteButton());
+			// v10r3: Each li should have an id that has the todo position
+			todosLi.id = i;
 
 			todosUl.appendChild(todosLi);
 		}
-		
+	},
+	// v10r1: There should be a way to create delete buttons
+	createDeleteButton: function() {
+		var deleteButton = document.createElement('button');
+		deleteButton.textContent = 'Delete';
+		deleteButton.className = 'deleteButton';
+
+		return deleteButton;
+	},
+	// v10r4: Delete buttons should have access to the todo id
+	setUpEventListeners: function () {
+		var todosUl = document.querySelector('ul');
+
+		todosUl.addEventListener('click', function(event) {
+			var elementClicked = event.target;
+			// v10r5: Clicking delete should update todoList.todos and the DOM
+			if(elementClicked.className === 'deleteButton') {
+				handlers.deleteTodo(parseInt(elementClicked.parentNode.id));
+			}
+		});
 	}
 }
+
+view.setUpEventListeners();
