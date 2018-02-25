@@ -15,7 +15,10 @@
 	-->
 	<!-- Refactor -->
 	<div>
-		<button onclick="handlers.displayTodos()">Display Todos</button>
+		<!-- deprecated
+			
+			<button onclick="handlers.displayTodos()">Display Todos</button>
+		-->
 		<button onclick="handlers.toggleAll()">Toggle All</button>
 	</div>
 
@@ -42,6 +45,13 @@
 	<div>
 		<button onclick="handlers.toggleCompleted()">Toggle Completed</button>
 		<input id="toggleCompletedInputPosition" type="number">
+	</div>
+
+	<!-- v9r0: Adding a todoList 'container' -->
+	<div>
+		<ul>
+			
+		</ul>
 	</div>
 
 	<script src="vx.js" type="text/javascript"></script>

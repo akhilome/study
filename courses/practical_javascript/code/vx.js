@@ -18,27 +18,29 @@
 
 var todoList = {
 	todos: [], // v3r1: It should store the todos array on an object
-	displayTodos: function() {
-		/* deprecated
+	//* deprecated
+	//
+	// displayTodos: function() {
+	// 	/* deprecated
 
-		// v3r2: It should have a displayTodos method
-		console.log("Current Todos: ", this.todos);
+	// 	// v3r2: It should have a displayTodos method
+	// 	console.log("Current Todos: ", this.todos);
 
-		*/
-		console.log("Current Todos:");
-		if (this.todos.length === 0) {
-			console.log("Woot! Nothing to do."); // v5r2: .displayTodos should tell you if .todos is empty
-		} else {
-			for (var i = 0; i < this.todos.length; i++) {
-				// v5r3: .displayTodos should show completed
-				if (this.todos[i].completed === true) {
-					console.log("(x) ", this.todos[i].todoText /* v5r1: .displayTodos should show .todoText */);
-				} else {
-					console.log("( ) ", this.todos[i].todoText);
-				};
-			};
-		};
-	},
+	// 	*/
+	// 	console.log("Current Todos:");
+	// 	if (this.todos.length === 0) {
+	// 		console.log("Woot! Nothing to do."); // v5r2: .displayTodos should tell you if .todos is empty
+	// 	} else {
+	// 		for (var i = 0; i < this.todos.length; i++) {
+	// 			// v5r3: .displayTodos should show completed
+	// 			if (this.todos[i].completed === true) {
+	// 				console.log("(x) ", this.todos[i].todoText /* v5r1: .displayTodos should show .todoText */);
+	// 			} else {
+	// 				console.log("( ) ", this.todos[i].todoText);
+	// 			};
+	// 		};
+	// 	};
+	// },
 	addTodo: function(todo) {
 		/* deprecated
 
@@ -52,7 +54,6 @@ var todoList = {
 			todoText: todo,
 			completed: false
 		});
-		this.displayTodos();
 	},
 	changeTodo: function(index, todo) {
 		/* deprecated
@@ -69,13 +70,11 @@ var todoList = {
 	deleteTodo: function (index) {
 		// v3r5: It should have a deleteTodo method
 		this.todos.splice(index, 1);
-		this.displayTodos();
 	},
 	toggleCompleted: function(index) {
 		// v4r3: todoList.toggleCompleted should change the Completed property
 		var todo = this.todos[index];
 		todo.completed = !todo.completed;
-		this.displayTodos();
 	},
 	toggleAll: function() {
 		var totalTodos = this.todos.length;
@@ -96,8 +95,6 @@ var todoList = {
 				this.todos[i].completed = true;
 			};
 		};
-
-		this.displayTodos();
 	}
 }
 
@@ -127,14 +124,12 @@ var handlers = {
 	displayTodos: function () {
 		todoList.displayTodos();
 	},
-	toggleAll: function () {
-		todoList.toggleAll();
-	},
 	// v8r1: It should have working controls for .addTodo
 	addTodo: function() {
 		var addTodoInputText = document.getElementById('addTodoInputText');
 		todoList.addTodo(addTodoInputText.value);
 		addTodoInputText.value = '';
+		view.displayTodos();
 	},
 	// v8r2: It should have working controls for .changeTodo
 	changeTodo: function() {
@@ -143,17 +138,47 @@ var handlers = {
 		todoList.changeTodo(changeTodoInputPosition.valueAsNumber, changeTodoInputText.value);
 		changeTodoInputPosition.value = '';
 		changeTodoInputText.value = '';
+		view.displayTodos();
 	},
 	// v8r3: It should have working controls for .deleteTodo
 	deleteTodo: function() {
 		var deleteTodoInputPosition = document.getElementById('deleteTodoInputPosition');
 		todoList.deleteTodo(deleteTodoInputPosition.valueAsNumber);
 		deleteTodoInputPosition.value = '';
+		view.displayTodos();
 	},
 	// v8r4: It should have working controls for .toggleCompleted
 	toggleCompleted: function() {
 		var toggleCompletedInputPosition = document.getElementById('toggleCompletedInputPosition');
 		todoList.toggleCompleted(toggleCompletedInputPosition.valueAsNumber);
 		toggleCompletedInputPosition.value = '';
+		view.displayTodos();
+	},
+	toggleAll: function () {
+		todoList.toggleAll();
+		view.displayTodos();
+	}
+}
+
+var view = {
+	displayTodos: function() {
+		var todosUl = document.querySelector('ul');
+		todosUl.innerHTML = '';
+		// v9r1: There should be an li element for every todo
+		for (var i = 0; i < todoList.todos.length; i++) {
+			var todosLi = document.createElement('li');
+			var todo = todoList.todos[i];
+
+			// v9r2: Each li element should contain todoText
+			// v9r3: Each li element should show .completed
+			if (todo.completed === true) {
+				todosLi.textContent = '(x) ' + todoList.todos[i].todoText;
+			} else {
+				todosLi.textContent = '( ) ' + todoList.todos[i].todoText;
+			}
+
+			todosUl.appendChild(todosLi);
+		}
+		
 	}
 }
