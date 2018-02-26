@@ -78,6 +78,9 @@ var todoList = {
 	toggleAll: function() {
 		var totalTodos = this.todos.length;
 		var completedTodos = 0;
+
+		/* deprecated
+
 		// v6r1: if everything's true, make everything false
 		for (var i = 0; i < totalTodos; i++) {
 			if (this.todos[i].completed === true) {
@@ -94,6 +97,23 @@ var todoList = {
 				this.todos[i].completed = true;
 			};
 		};
+
+		*/
+
+		// v11r1 todoList.toggleAll should use forEach()
+		todoList.todos.forEach(function(todo) {
+			if(todo.completed == true) {
+				completedTodos++;
+			}
+		});
+
+		todoList.todos.forEach(function(todo) {
+			if (completedTodos === totalTodos) {
+				todo.completed = false;
+			} else {
+				todo.completed = true;
+			}
+		});
 	}
 }
 
@@ -163,6 +183,9 @@ var view = {
 	displayTodos: function() {
 		var todosUl = document.querySelector('ul');
 		todosUl.innerHTML = '';
+		
+		/* deprecated
+
 		// v9r1: There should be an li element for every todo
 		for (var i = 0; i < todoList.todos.length; i++) {
 			var todosLi = document.createElement('li');
@@ -182,6 +205,23 @@ var view = {
 
 			todosUl.appendChild(todosLi);
 		}
+
+		*/
+
+		// v11r2: view.displayTodos should use .forEach();
+		todoList.todos.forEach(function(todo, position) {
+			var todosLi = document.createElement('li');
+
+			if (todo.completed === true) {
+				todosLi.textContent = '(x) ' + todo.todoText;
+			} else {
+				todosLi.textContent = '( ) ' + todo.todoText;
+			}
+
+			todosLi.appendChild(this.createDeleteButton());
+			todosLi.id = position;
+			todosUl.appendChild(todosLi);
+		}, this);
 	},
 	// v10r1: There should be a way to create delete buttons
 	createDeleteButton: function() {
