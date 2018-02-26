@@ -65,7 +65,6 @@ var todoList = {
 
 		// v4r2: todoList.changeToddo should change the todoText property
 		this.todos[index].todoText = todo;
-		this.displayTodos();
 	},
 	deleteTodo: function (index) {
 		// v3r5: It should have a deleteTodo method
