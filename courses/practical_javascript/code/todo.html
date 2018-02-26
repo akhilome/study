@@ -6,50 +6,28 @@
 </head>
 <body>
 	<h1>Todo List</h1>
-	<!-- 
-		v7r1: There should be a "Display Todos" button and a "Toggle All" button in the app
-
-	<button id="displayTodosButton">Display Todos</button>
-	<button id="toggleAllButton">Toggle All</button>
-
-	-->
-	<!-- Refactor -->
+	<!-- Add App Buttons and required input fields -->
 	<div>
-		<!-- deprecated
-
-			<button onclick="handlers.displayTodos()">Display Todos</button>
-		-->
 		<button onclick="handlers.toggleAll()">Toggle All</button>
 	</div>
 
-	<!-- v8r1: It should have working controls for .addTodo -->
 	<div>
 		<button onclick="handlers.addTodo()">Add Todo</button>
 		<input id="addTodoInputText" type="text">
 	</div>
 
-	<!-- v8r2: It should have working controls for .changeTodo -->
 	<div>
 		<button onclick="handlers.changeTodo()">Change Todo</button>
 		<input id="changeTodoInputPosition" type="number">
 		<input id="changeTodoInputText" type="text">
 	</div>
 
-	<!-- v8r3: It should have working controls for .deleteTodo -->
-	<!-- deprecated
-		<div>
-			<button onclick="handlers.deleteTodo()">Delete Todo</button>
-			<input id="deleteTodoInputPosition" type="number">
-		</div>
-	-->
-
-	<!-- v8r4: It should have working controls for .toggleCompleted -->
 	<div>
 		<button onclick="handlers.toggleCompleted()">Toggle Completed</button>
 		<input id="toggleCompletedInputPosition" type="number">
 	</div>
 
-	<!-- v9r0: Adding a todoList 'container' -->
+	<!-- Add a todoList 'container' -->
 	<div>
 		<ul>
 			
