@@ -16,9 +16,9 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 ## Progress
 
-**Current Course(s)**: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) & [Pratical Javascript](https://watchandcode.com/p/practical-javascript)    
-**Courses Completed**: 4  
-**Total Points earned**: 1200  
+**Current Course(s)**: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x)  
+**Courses Completed**: 5  
+**Total Points earned**: 1300  
 
 | Date Finished | Activity                  | Points | Links  												   								|  
 | ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
@@ -30,7 +30,7 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 | 21-01-2018	| Project 					| 200	 | [Website Homepage Redesign](https://techviews.com.ng/)								|
 | WIP 			| Course  					| 500	 | [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) |
 | WIP			| Book						| 200	 | [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) |
-| WIP		  	| Course						| 100   | [Pratical Javascript](https://watchandcode.com/p/practical-javascript)	|
+| 26-02-2018	| Course					| 100 	 | [Pratical Javascript](https://watchandcode.com/p/practical-javascript)				|
 |    |    |    |
 
 
@@ -59,7 +59,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 
 - [x]  [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 - [x]  [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
-- [ ]  `[in progress]` [Pratical Javascript](https://watchandcode.com/p/practical-javascript)
+- [x]  [Pratical Javascript](https://watchandcode.com/p/practical-javascript)
 
 
 ---
