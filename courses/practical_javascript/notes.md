@@ -146,3 +146,40 @@ Gordon, the intructor/author of the course, advices that we, the students, "**_F
 ### Refactoring Old Code.
 
 * Refactoring code generally involves rewriting old code in a program to make it clearer and easier to understand without altering the program's original functionality (while using the old code).
+
+### On Functions
+
+* Functions cann be passed into other functions.
+
+* Arrays have a `.forEach()` method which does the job of looping over each element contained in the array. An example: 
+
+```javascript
+
+var anArr = ["One", "Two", "Three"];
+
+anArr.forEach(function(element) {
+	console.log(element); // logs every element contained in the array to the console individually
+});
+
+
+```
+
+* **Higher Order Functions**: These kinds of functions accept other functions as arguments and they generally "enhance" the behaviour of other functions.  
+
+* **Callback Function**: These are generally the functions which are passed into higher order functions.  
+
+* _Javascript Event Delegation_ is a useful thing to master. Read more about it.  
+
+#### On Constructor Functions
+
+* Constructor functions function name are usually capitalized like so:  
+
+```javascript
+
+function Country(name) {
+	this.name = name;
+}
+
+```
+
+* When a constructor function is called using the `new` keyword, an empty object is created automatically.  
