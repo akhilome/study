@@ -3,9 +3,8 @@
 * 	Author URL: https://akhilo.me/
 * 	Based on: Practical Javascript (https://watchandcode.com/p/practical-javascript)	
 * 
-*	These code snnippets fulfil the requirements
-*	poised by the Practical JS course from version
-*	3 onwards.
+*	These code snippets fulfil the requirements
+*	poised by the Practical JS course
 */
 
 
