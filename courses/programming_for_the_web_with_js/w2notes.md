@@ -8,7 +8,7 @@ This week we get a breif introduction to the Javascript language and how to use 
 
   * `document.write(varName);`
   * `console.log(varName);`
-  * `alert(varName);`
+  * `alert(varName);` - brings up a pop up box in the browser
   
 * Variable types in JS:
 
@@ -38,8 +38,8 @@ var newArr = ['I', 'am', 'finally', 'learning', 'a', 'programming', 'language'];
 * Elements within the array can be changed as well using their index. For example, using the `newArr` created above, `newArr[2] = 'actually';` will change `'finally'` in the originally created array to `'actually'`. So from there on out, anytime one tries to `console.log(newArr[2]);`, the output would be `'actually'`
 
 * Elements can be added to an array using the `push()` and `unshift()` methods.
-  * `push()` add elements to the end of the array
-  * `unshift()` adds elements to the beginning of the array. For example, using `newArr` created above:
+  * `.push()` add elements to the end of the array
+  * `.unshift()` adds elements to the beginning of the array. For example, using `newArr` created above:
   
 ```javascript
 
@@ -58,8 +58,8 @@ console.log(newArr);
 ```
 
 * Elements can also be removed from an array using the following methods:  
-  * pop() removes elements from the end.
-  * shift() removes elements from the beginning
+  * `.pop()` removes elements from the end.
+  * `.shift()` removes elements from the beginning
 
 * Worth noting is: when an element is removed from an array using any of the aforementioned methods, the element removed is returned into the console. So one can save the popped off element into a new variable or, hell!, into another array! Here's an illustration:  
 
@@ -130,7 +130,7 @@ console.log(kizito.age);
   * `!`: logical NOT
 
 * Loops can be a:  
-  * for loop: `for ( ... ) { ... }`
+  * for loop: `for ( init; check; update ) { ... }`
   * while loop: `while ( ... ) { ... }`
   * do while loop: `do { ... } while ( ... );`
 
@@ -152,7 +152,7 @@ function newFunc (arg1, arg2, ... argX {
 
 ```
 
-* To apply functions to Arrays without using loops, various [array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), like [.forEach](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [.every](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every), [.map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), e.t.c, exist.
+* To apply functions to Arrays without using loops, various [array methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array), like [`.forEach()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach), [`.every()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/every), [`.map()`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map), e.t.c, exist.
 
 * _The instructor is mentioning something about prototypes, using the `this` and `new` keywords, but I'm having slight issues wrapping my head around what he is saying at the moment. I am sure I'd get a hang of it eventually as I thumb through other resources (like the YDKJS books I am yet to devour). For now, let me keep forging ahead._
 
@@ -184,6 +184,9 @@ console.log(name.charAt(3));
   * `.endsWith('')`
   * `.includes('')`
   * `.search ('')`
+
+
+## On Regular Expressions:
 
 *  A regular expression is a pattern of characters.
 
