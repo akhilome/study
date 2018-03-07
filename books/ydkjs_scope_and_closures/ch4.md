@@ -12,7 +12,7 @@ var a = 5;
 
 Contrary to 'conventional wisdom', the `console.log` statement outputs `undefined` instead of a Reference Error or the value `5` because of something the author refers to as **Hoisting**.
 
-He, the author, that is, states that although it may seem like the JS engine run the code from top to bottom of the file (much like how cascading styles work), but thanks to the compiler he previously asserted JS has, variable declarations (function declarations too) are "hoisted" to the top of the file.
+He (the author, that is) states that although it may seem like the JS engine run the code from top to bottom of the file (much like how cascading styles work), but thanks to the compiler he previously asserted JS has, variable declarations (function declarations too) are "hoisted" to the top of the file.
 
 It is important to note that while declarations are hoisted to the top of the code, assignments stay in place.
 
@@ -28,7 +28,7 @@ a = 5; // assignments are not hoisted
 
 ```
 
-Another example illustration hoisting, but this time with functions:
+Another example illustrating hoisting, but this time with functions:
 
 ```javascript
 
