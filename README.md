@@ -18,7 +18,7 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 **Current Course(s)**: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x)  
 **Courses Completed**: 5  
-**Total Points earned**: 1300  
+**Total Points earned**: 1340  
 
 | Date Finished | Activity                  | Points | Links  												   								|  
 | ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
@@ -31,7 +31,8 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 | WIP 			| Course  					| 500	 | [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) |
 | WIP			| Book						| 200	 | [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) |
 | 26-02-2018	| Course					| 100 	 | [Pratical Javascript](https://watchandcode.com/p/practical-javascript)				|
-|    |    |    |
+| 08-03-2018    | Blog Post tutorial  	    | 40	 | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/) 	|
+| 	|	|	|	|
 
 
 ## Get Job Ready - Python Edition
