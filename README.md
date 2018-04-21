@@ -23,14 +23,14 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 | Date Finished | Activity                  | Points | Links  												   								|  
 | ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
 | 05-01-2018    | Course 				    | 100	 | [Try Git](https://try.github.io/levels/1/challenges/1)  								|
-| 13-01-2018 	| Course 					| 100 	 | [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775) |
-| 12-02-2018 	| Course					| 100	 | [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)						|
-| 19-02-2018	| Book						| 200	 | [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)	|
-| 08-02-2018	| Course					| 500	 | [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)		|
+| 13-01-2018 	| Course 					| 100 	 | [How to Use Git and Github](https://github.com/akhilome/ss2018/tree/master/courses/how_to_use_git_and_github) |
+| 12-02-2018 	| Course					| 100	 | [Learn to Code HTML & CSS](https://github.com/akhilome/ss2018/tree/master/courses/learn_to_code_HTML_and_CSS)						|
+| 19-02-2018	| Book						| 200	 | [You Don't Know JS: Up & Going](https://github.com/akhilome/ss2018/tree/master/books/ydkjs_up_and_going)	|
+| 08-02-2018	| Course					| 500	 | [Learning How to Learn](https://github.com/akhilome/ss2018/tree/master/courses/learning_how_to_learn)		|
 | 21-01-2018	| Project 					| 200	 | [Website Homepage Redesign](https://techviews.com.ng/)								|
-| WIP 			| Course  					| 500	 | [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) |
-| WIP			| Book						| 200	 | [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) |
-| 26-02-2018	| Course					| 100 	 | [Pratical Javascript](https://watchandcode.com/p/practical-javascript)				|
+| WIP 			| Course  					| 500	 | [Programming for the Web with JavaScript](https://github.com/akhilome/ss2018/tree/master/courses/programming_for_the_web_with_js) |
+| WIP			| Book						| 200	 | [You Don't Know JS: Scope & Closures](https://github.com/akhilome/ss2018/tree/master/books/ydkjs_scope_and_closures) |
+| 26-02-2018	| Course					| 100 	 | [Pratical Javascript](https://github.com/akhilome/ss2018/tree/master/courses/practical_javascript)				|
 | 08-03-2018    | Blog Post tutorial  	    | 40	 | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/) 	|
 | 	|	|	|	|
 
