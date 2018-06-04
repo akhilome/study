@@ -167,3 +167,24 @@ function findNextSquare(sq) {
     let r = Math.sqrt(sq)
     return r % 1 ? -1 : ++r * r
 }
+
+/*
+	#4: 06/04/2018
+
+	Define a function isPrime/is_prime() that takes one integer argument
+	and returns true/True or false/False depending on if the integer is 
+	a prime.
+
+*/
+
+// My Solution:
+
+function isPrime(num) {
+  if (num <= 1) return false;
+
+  for(var i = 2; i < num; i++) {
+    if (!(num % i)) return false;
+  }
+  
+  return true;
+}
