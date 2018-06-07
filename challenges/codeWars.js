@@ -243,3 +243,36 @@ function toWeirdCase(string){
   
   return string.includes(" ") ? string.split(" ").map(weirdoMaker).join(" ") : weirdoMaker(string);
 }
+
+
+/*
+	#7: 06/07/2018
+
+	Write an algorithm that takes an array and moves all of the zeros to 
+	the end, preserving the order of the other elements.
+
+*/
+
+// My First Solution:
+
+const moveZeros = arr => {
+	let zeroIndex = [];
+	arr.forEach((char, i) => {
+		if (char === 0) zeroIndex.push(i)
+	});
+
+	if (!zeroIndex.length) {
+		return arr;
+	} else {
+		arr = arr.filter(char => char !== 0);
+		for (var i = 0; i < zeroIndex.length; i++) arr.push(0);
+		
+		return arr;
+	}
+}
+
+// My second solution after seeing other warriors' implementation: 
+
+const moveZeros = arr => {
+	return arr.filter(char => char !== 0).concat(arr.filter(char => char === 0));
+}
