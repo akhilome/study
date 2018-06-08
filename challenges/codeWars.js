@@ -310,18 +310,10 @@ const moveZeros = arr => {
 
 const checker = (operation, right, left) => {
   switch (operation) {
-    case 'mult':
-      return left * right;
-      break;
-    case 'div':
-      return Math.floor(left / right);
-      break;
-    case 'plus':
-      return left + right;
-      break;
-    case 'minus':
-      return left - right;
-      break;
+    case 'mult': return left * right;
+    case 'div': return Math.floor(left / right);
+    case 'plus': return left + right;
+    case 'minus': return left - right;
   }
 }
 
