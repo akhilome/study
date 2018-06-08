@@ -325,16 +325,16 @@ const checker = (operation, right, left) => {
   }
 }
 
-function zero(arg) {return arg === undefined ? 0 : checker(arg[0], arg[1], 0)}
-function one(arg) {return arg === undefined ? 1 : checker(arg[0], arg[1], 1)}
-function two(arg) {return arg === undefined ? 2 : checker(arg[0], arg[1], 2)}
-function three(arg) {return arg === undefined ? 3 : checker(arg[0], arg[1], 3)}
-function four(arg) {return arg === undefined ? 4 : checker(arg[0], arg[1], 4)}
-function five(arg) {return arg === undefined ? 5 : checker(arg[0], arg[1], 5)}
-function six(arg) {return arg === undefined ? 6 : checker(arg[0], arg[1], 6)}
-function seven(arg) {return arg === undefined ? 7 : checker(arg[0], arg[1], 7)}
-function eight(arg) {return arg === undefined ? 8 : checker(arg[0], arg[1], 8)}
-function nine(arg) {return arg === undefined ? 9 : checker(arg[0], arg[1], 9)}
+function zero(arg) {return !arg ? 0 : checker(arg[0], arg[1], 0)}
+function one(arg) {return !arg ? 1 : checker(arg[0], arg[1], 1)}
+function two(arg) {return !arg ? 2 : checker(arg[0], arg[1], 2)}
+function three(arg) {return !arg ? 3 : checker(arg[0], arg[1], 3)}
+function four(arg) {return !arg ? 4 : checker(arg[0], arg[1], 4)}
+function five(arg) {return !arg ? 5 : checker(arg[0], arg[1], 5)}
+function six(arg) {return !arg ? 6 : checker(arg[0], arg[1], 6)}
+function seven(arg) {return !arg ? 7 : checker(arg[0], arg[1], 7)}
+function eight(arg) {return !arg ? 8 : checker(arg[0], arg[1], 8)}
+function nine(arg) {return !arg ? 9 : checker(arg[0], arg[1], 9)}
 
 function plus(x) { return ['plus', x] }
 function minus(x) { return ['minus', x] }
