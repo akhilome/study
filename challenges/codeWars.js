@@ -365,3 +365,28 @@ function likes(names) {
     default: return  `${names[0]}, ${names[1]} and ${names.length - 2} others like this`;
   }
 }
+
+/* 
+	#10: 06/11/2018
+
+	Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+
+	HH = hours, padded to 2 digits, range: 00 - 99
+	MM = minutes, padded to 2 digits, range: 00 - 59
+	SS = seconds, padded to 2 digits, range: 00 - 59
+*/
+
+// My solution (with some help from S/O) => 
+
+function humanReadable(seconds) {
+  let h = Math.floor(seconds / 3600);
+  seconds = seconds % 3600;
+  let m = Math.floor(seconds / 60);
+  let s = seconds % 60;
+  
+  h = h < 10 ? "0" + String(h) : String(h);
+  m = m < 10 ? "0" + String(m) : String(m);
+  s = s < 10 ? "0" + String(s) : String(s);
+  
+  return `${h}:${m}:${s}`
+}
