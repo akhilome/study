@@ -18,7 +18,7 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 
 **Current Course(s)**: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x)  
 **Courses Completed**: 5  
-**Total Points earned**: 1340  
+**Total Points earned**: 1390  
 
 | Date Finished | Activity                  | Points | Links  												   								|  
 | ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
@@ -32,6 +32,7 @@ To have built a minimum of 4 fully functional web apps by 31st of December 2018.
 | WIP			| Book						| 200	 | [You Don't Know JS: Scope & Closures](https://github.com/akhilome/ss2018/tree/master/books/ydkjs_scope_and_closures) |
 | 26-02-2018	| Course					| 100 	 | [Pratical Javascript](https://github.com/akhilome/ss2018/tree/master/courses/practical_javascript)				|
 | 08-03-2018    | Blog Post tutorial  	    | 40	 | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/) 	|
+| 12-06-2018	|	Algorithms      |	50  | [Completed 10 code katas](https://github.com/akhilome/ss2018/tree/master/challenges/codeWars.js) |
 | 	|	|	|	|
 
 
