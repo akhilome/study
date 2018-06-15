@@ -369,14 +369,15 @@ function likes(names) {
 /* 
 	#10: 06/11/2018
 
-	Write a function, which takes a non-negative integer (seconds) as input and returns the time in a human-readable format (HH:MM:SS)
+	Write a function, which takes a non-negative integer (seconds) as input and returns 
+	the time in a human-readable format (HH:MM:SS)
 
 	HH = hours, padded to 2 digits, range: 00 - 99
 	MM = minutes, padded to 2 digits, range: 00 - 59
 	SS = seconds, padded to 2 digits, range: 00 - 59
 */
 
-// My solution (with some help from S/O) => 
+// My solution (with some help from Stackoverflow): 
 
 function humanReadable(seconds) {
   let h = Math.floor(seconds / 3600);
@@ -389,4 +390,34 @@ function humanReadable(seconds) {
   s = s < 10 ? "0" + String(s) : String(s);
   
   return `${h}:${m}:${s}`
+}
+
+/*
+	#11: 06/15/2018
+
+	A pangram is a sentence that contains every single letter of the alphabet 
+	at least once. For example, the sentence "The quick brown fox jumps over the lazy dog" 
+	is a pangram, because it uses the letters A-Z at least once (case is 
+	irrelevant).
+
+	Given a string, detect whether or not it is a pangram. Return True if 
+	it is, False if not. Ignore numbers and punctuation.
+*/
+
+// My solution: 
+
+const isPangram = string => {
+  // No point moving on if provided string is less than 26 chars
+  if (string.length < 26) return false;
+  // A hashmap of some sort for storing each encountered alphabet, and the occurence number
+  let tracker = {};
+  // Loop over each lower cased character of the passed string
+  for (let char of string.toLowerCase()) {
+    if(/[a-z]/.test(char)) { // check if alphabet with regex
+      // update the tracker
+      tracker[char] = !tracker[char] ? 1 : ++tracker[char];
+    }
+  }
+  // check the length of the keys in the tracker and return true if equal to 26
+  return Object.keys(tracker).length === 26 ? true : false;
 }
