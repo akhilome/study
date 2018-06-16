@@ -421,3 +421,34 @@ const isPangram = string => {
   // check the length of the keys in the tracker and return true if equal to 26
   return Object.keys(tracker).length === 26 ? true : false;
 }
+
+
+/*
+	#12: 06/16/2018
+
+	Given a string of words, you need to find the highest scoring word.
+
+	Each letter of a word scores points according to it's position in 
+	the alphabet: a = 1, b = 2, c = 3 etc.
+
+	You need to return the highest scoring word as a string.
+
+	If two words score the same, return the word that appears earliest 
+	in the original string.
+
+	All letters will be lowercase and all inputs will be valid.
+*/
+
+// My Solution:
+
+const high = x => {
+  if (!/\w/.test(x) || !x) return '';
+  const wordScore = word => {
+    let total = 0;
+    for(let char of word) total += char.charCodeAt() - 96;
+    return total;
+  }
+  let arr = x.split(' ');
+  let scores = arr.map(word => wordScore(word));
+  return arr[scores.indexOf(Math.max(...scores))];
+}
