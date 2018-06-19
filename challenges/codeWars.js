@@ -529,4 +529,16 @@ function thirt(n) {
   return output;
 }
 
-//* I'd most definely be comming back to refactor this.
+//* I'd most definitely be comming back to refactor this.
+
+// My second implementation: trying to *understand* and do this recursively
+
+const thirt = n => {
+	let rems = [1, 10, 9, 12, 3, 4];
+	let nums = [...rems];
+	for (let i = 0; i < Math.floor(`${n}`.length)/6; i++) nums = nums.concat(rems);
+	let numRev = String(n).split('').reverse().map(x => Number(x));
+	let output = numRev.map((x, i) => x * nums[i]).reduce((a, b) => a + b);
+
+	return output === n ? output : thirt(output);
+}
