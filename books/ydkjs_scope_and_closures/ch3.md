@@ -12,9 +12,9 @@ function somethingGood() {
 
 ```
 
-  are the most common units of scope variables and functions defined in these scopes are only available to scope and functions/scopes nested within. Functions/scopees outside the declared fucntion scope (e.g. the global scope) cannot "see" declared identifiers nested within.  
+  are the most common units of scope variables and functions defined in these scopes are only available to scope and functions/scopes nested within. Functions/scopes outside the declared fucntion scope (e.g. the global scope) cannot "see" declared identifiers nested within.  
 
-* Apart from function scoping, **block scopes**  `{ ... }` also exist. A code block in JS is generally any code which id enclosed with curly braces like so:  
+* Apart from function scoping, **block scopes**  `{ ... }` also exist. A code block in JS is generally any code which is enclosed with curly braces like so:  
 
 ```javascript
 

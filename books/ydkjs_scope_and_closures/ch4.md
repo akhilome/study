@@ -12,11 +12,11 @@ var a = 5;
 
 Contrary to 'conventional wisdom', the `console.log` statement outputs `undefined` instead of a Reference Error or the value `5` because of something the author refers to as **Hoisting**.
 
-He (the author, that is) states that although it may seem like the JS engine run the code from top to bottom of the file (much like how cascading styles work), but thanks to the compiler he previously asserted JS has, variable declarations (function declarations too) are "hoisted" to the top of the file.
+He (the author, that is) states that although it may seem like the JS engine runs the code from top to bottom of the file (much like how cascading styles work), but thanks to the compiler he previously asserted JS has, variable declarations (function declarations too) are "hoisted" to the top of the file.
 
 It is important to note that while declarations are hoisted to the top of the code, assignments stay in place.
 
-The code snippet at the top of this md can be translated into the following, when hoisting is taken account of:
+The code snippet at the top of this md can be translated into the following when hoisting is taken account of:
 
 ```javascript
 
@@ -141,4 +141,4 @@ typeof(bar);
 
 ```
 
-A final takeaway from this chapter is the fact that the author states that the statement `var a = "something";` should stop being looked at as 'just' one statement as the javascript engine actually sees it as two: A declaration (`var a;` - compiler phase task) and an assignment (`a = "something";` - execution phase task).
+A final takeaway from this chapter is the fact that the author states that the statement `var a = "something";` should stop being looked at as 'just' one statement as the javascript engine actually sees it as two: A declaration (`var a;` - compiler phase task) and an assignment (`a = "something";` - execution phase task).  
