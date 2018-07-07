@@ -35,7 +35,7 @@ to the console. */
 
   ```javascript
   let anArr = [1,2,3];
-  let [x.y,z] = [anArr];
+  let [x, y, z] = [anArr];
   console.log(y);
 
   //=> logs 2 to the console
@@ -54,7 +54,7 @@ to the console. */
 
 => Employ the use of [object literal shorthand](https://eslint.org/docs/rules/object-shorthand)
 
-=> On `for ... of` loops, I do not know how to explain at the moment, but here's the code:
+=> On `for ... of` loops, I do not know how to explain this at the moment, but here's the code:
 
 ```javascript
 const digits = [1,2,3,4,5,6,7,8,9];
