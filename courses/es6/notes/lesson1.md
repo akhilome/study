@@ -2,9 +2,13 @@
 
 Interesting pointers I gleaned:
 
-=> Employ the use of the `let` & `const` keywords for variable declaration over the `var` keyword (plus know the appropriate way to use them).
+## On Variable Declaration
 
-=> Template literals (`` `some string ${ ... some code ...} some more strings` ``) are now a thing. Making use of them over legacy string concantenation methods makes string interpolation effortless and less clunky. Plus when using them, no need for the `\n` character when in need of the text/string going to the new line, just hit the return key and shit gets recognized! For example:
+Employ the use of the `let` & `const` keywords for variable declaration over the `var` keyword (plus know the appropriate way to use them).
+
+## On Template Literals
+
+Template literals (`` `some string ${ ... some code ...} some more strings` ``) are now a thing. Making use of them over legacy string concantenation methods makes string interpolation effortless and less clunky. Plus when using them, no need for the `\n` character when in need of the text/string going to the new line, just hit the return key and shit gets recognized! For example:
 
 ```javascript
 const curse = 'fucking';
@@ -29,32 +33,38 @@ to the console. */
 
 ```
 
-=> Destructuring is also a thing I should be aware of. Here's how its done: 
+## On Destructuring
 
-  * From Arrays:
+Destructuring is also a thing I should be aware of. Here's how its done: 
 
-  ```javascript
-  let anArr = [1,2,3];
-  let [x, y, z] = [anArr];
-  console.log(y);
+**From Arrays:**
 
-  //=> logs 2 to the console
-  ```
+```javascript
+let anArr = [1,2,3];
+let [x, y, z] = [anArr];
+console.log(y);
 
-  * From Objects: 
+//=> logs 2 to the console
+```
 
-  ```javascript
-  let anObj = {a: 11, b: 22, c: 33};
-  let {a, b, c} = anObj;
+**From Objects:** 
 
-  console.log(c);
+```javascript
+let anObj = {a: 11, b: 22, c: 33};
+let {a, b, c} = anObj;
 
-  //=> logs 33 to the console
-  ```
+console.log(c);
 
-=> Employ the use of [object literal shorthand](https://eslint.org/docs/rules/object-shorthand)
+//=> logs 33 to the console
+```
 
-=> On `for ... of` loops, I do not know how to explain this at the moment, but here's the code:
+## On Object Literals
+
+Employ the use of [object literal shorthand](https://eslint.org/docs/rules/object-shorthand)
+
+## On `for ... of` Loops 
+
+I do not know how to explain this at the moment, but here's the code:
 
 ```javascript
 const digits = [1,2,3,4,5,6,7,8,9];
@@ -66,5 +76,7 @@ for(const digit of digits) {
 // => logs all odd numbers in the digits array to the console
 ```
 
-=> Two operators to start using: [Spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) and [Rest](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
+## On new operators
+
+Two operators to start using: [Spread](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax) and [Rest](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/rest_parameters).
 
