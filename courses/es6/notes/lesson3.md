@@ -53,3 +53,57 @@ const weakOne = new WeakSet();
 
 Worth noting is that to remove an object from a weak set, the object's identifier should be set to `null`. On doing that, Javascript's 'Garbage collector' automatically removes the object's identifier from the weak set.
 
+## On Maps
+
+Maps are collection of key-value pairs, where either the keys/values can be primitives or objects, or a combo of both. To create a Map:
+
+```js
+const myFirstMap = new Map();
+```
+
+To add new items to a map, the Map's `.set()` method is used as follows:
+
+```js
+myFirstMap.set(key, value);
+```
+
+For example:
+
+```js
+const map1 = new Map();
+map1.set('item 1', 'value 1');
+```
+
+Other important methods possessed by a Map include:
+
+  * `.delete()` - removes passed key's key-value pair from the Map.
+  * `.clear()` - removes all key-vale pairs from the Map.
+  * `.get()` - returns the value of the passed in key.
+  * `.has()` - checks if a key-value pair exists by passing in a key.
+
+_**Important to Note**_: Upon setting a key-value pair on a Map using an already existing key, the current/existing value would be overwritten and no error would be returned. Think of this as a way of 'updating' the key.
+
+Maps can be iterated over using:
+
+  * MapIterator - by creating a new iterator object from the `.keys()`/`.values()` and using `.next()` to move from one member of the Map to the next.
+  * `for ... of` loop - returns an array with two items where item 1 (index 0) is the key, and item 2 (index 1) is the value.
+  * `.forEach()` method - takes a function which takes two args where arg1 - value and arg2 - key.
+
+### On WeakMaps
+
+Just like WeakSets, WeakMaps exist too. Also, similar to WeakSets, WeakMaps:
+
+  * can only contain objects as keys,
+  * are not iterables,
+  * do not have the `.clear()` method.
+
+To create a new WeakMap:
+
+```js
+
+const weakOneTwo = new WeakMap();
+
+```
+
+Again, be aware that WeakMaps can only contain objects as keys. Passing anything other than an object in the WeakMap's `.set()` method results in a `TypeError`.
+
