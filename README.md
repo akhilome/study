@@ -1,52 +1,51 @@
 # Speed Study 2018
 
-Let's see how much code I can learn within the space of a year.
+I **really** want to become a professional Software Engineer, this curated list of courses, books, and challenges, are what I'd be religiously following for the most part of 2018.
 
-## Plan
-
-Pretty straightforward. 
-
-Per [P1xt's lead](https://github.com/P1xt/speedstudy), I'd be delibrately studying a particular course path for as long as I can every day for a full year (2018) and see how much 'points' I can rack up by the end of the year.
-
-The course path of choice is the Job Ready Guide - [Python Edition](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)
+The course path of choice is a personalized version of one of P1xt's [Job Ready Guides](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)
 
 ## Goal
 
-To have built a minimum of 4 fully functional web apps by 31st of December 2018.
+Become an Andelan.
 
 ## Progress
 
-**Current Course(s)**: [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x),  [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)   
+**Current Course(s)**: [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)   
 **Courses Completed**: 5  
-**Total Points earned**: 1390  
 
-| Date Finished | Activity                  | Points | Links  												   								|  
-| ------------- | ------------------------- | ------ | -------------------------------------------------------------------------------------|
-| 05-01-2018    | Course 				    | 100	 | [Try Git](https://try.github.io/levels/1/challenges/1)  								|
-| 13-01-2018 	| Course 					| 100 	 | [How to Use Git and Github](https://github.com/akhilome/ss2018/tree/master/courses/how_to_use_git_and_github) |
-| 12-02-2018 	| Course					| 100	 | [Learn to Code HTML & CSS](https://github.com/akhilome/ss2018/tree/master/courses/learn_to_code_HTML_and_CSS)						|
-| 19-02-2018	| Book						| 200	 | [You Don't Know JS: Up & Going](https://github.com/akhilome/ss2018/tree/master/books/ydkjs_up_and_going)	|
-| 08-02-2018	| Course					| 500	 | [Learning How to Learn](https://github.com/akhilome/ss2018/tree/master/courses/learning_how_to_learn)		|
-| 21-01-2018	| Project 					| 200	 | [Website Homepage Redesign](https://techviews.com.ng/)								|
-| Stalled 			| Course  					| 500	 | [Programming for the Web with JavaScript](https://github.com/akhilome/ss2018/tree/master/courses/programming_for_the_web_with_js) |
-| WIP			| Book						| 200	 | [You Don't Know JS: Scope & Closures](https://github.com/akhilome/ss2018/tree/master/books/ydkjs_scope_and_closures) |
-| 26-02-2018	| Course					| 100 	 | [Pratical Javascript](https://github.com/akhilome/ss2018/tree/master/courses/practical_javascript)				|
-| 08-03-2018    | Blog Post tutorial  	    | 40	 | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/) 	|
-| 12-06-2018	|	Algorithms      |	50  | [Completed 10 code katas](https://github.com/akhilome/ss2018/tree/master/challenges/codeWars.js) |
-| WIP       	| Course            	|	100 | [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)	|
-| | | | |
+| Date Finished | Activity          | Links  												   								|  
+| ------------- | ----------------- | ------------------------------------------------|
+| 05-01-2018    | Course 				    | [Try Git](https://try.github.io/levels/1/challenges/1)  |
+| 13-01-2018 	  | Course 					  | [How to Use Git and Github](https://github.com/akhilome/ss2018/tree/master/courses/how_to_use_git_and_github) |
+| 12-02-2018 	  | Course					  | [Learn to Code HTML & CSS](https://github.com/akhilome/ss2018/tree/master/courses/learn_to_code_HTML_and_CSS) |
+| 19-02-2018	  | Book							| [You Don't Know JS: Up & Going](https://github.com/akhilome/ss2018/tree/master/books/ydkjs_up_and_going)  |
+| 08-02-2018	  | Course					  | [Learning How to Learn](https://github.com/akhilome/ss2018/tree/master/courses/learning_how_to_learn) |
+| Stalled 			| Course  					| [Programming for the Web with JavaScript](https://github.com/akhilome/ss2018/tree/master/courses/programming_for_the_web_with_js) |
+| WIP			      | Book						  | [You Don't Know JS: Scope & Closures](https://github.com/akhilome/ss2018/tree/master/books/ydkjs_scope_and_closures)  |
+| 26-02-2018	  | Course					  | [Pratical Javascript](https://github.com/akhilome/ss2018/tree/master/courses/practical_javascript)  |
+| 08-03-2018    | Blog Post   	    | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/)  |
+| WIP       	  | Course            | [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)  |
+| | | |
 
 
-## Get Job Ready - Python Edition
+## Get Job Ready
 
 Work through these courses, read the books listed below, and frequently supplement with "bonus activities" listed below.
 
-- [ ]  [College Algebra and Problem Solving](https://www.edx.org/course/college-algebra-problem-solving-asux-mat117x) 
-- [ ]  [Precalculus](https://www.edx.org/course/precalculus-asux-mat170x) 
+- [x]  [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
 - [x]  [Try Git](https://try.github.io/levels/1/challenges/1)
+- [x]  [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 - [x]  [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)    
+- [x]  [Pratical Javascript](https://watchandcode.com/p/practical-javascript) 
 - [ ]  `[stalled]` [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
-- [ ]  [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/)    
+- [ ]  `[In progress]` [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356) 
+- [ ]  [Javascript 30](https://javascript30.com/) 
+- [ ]  [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
+- [ ]  [CS50 - Web programming with Javascript & Python](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript-0) 
+- [ ]  [Learn Node](https://learnnode.com/) 
+- [ ]  [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/) 
+- [ ]  [What The Flexbox?!](https://flexbox.io/) 
+- [ ]  [ES6 For Everyone](https://es6.io/) 
 - [ ]  [Data Visualization and D3.js](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
 - [ ]  [MongoDB for Developers](https://university.mongodb.com/courses/M101P/about) - note: this course is only intermittently offered, sign up at the start of the Tier, then proceed to the other courses and return to this one when it's in session 
 - [ ]  [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11) 
@@ -55,16 +54,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  Challenge: [Python Interview Prep](https://www.hackerrank.com/chingu-challenge-3) on Hackerrank. Sign up now and work problems alongside the rest of the courses.
 - [ ]  [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) 
 - [ ]  [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120) 
-- [ ]  [Database Mini-Courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about) - take all mini-courses
-
-
-## Miscellaneous Courses
-
-- [x]  [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
-- [x]  [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
-- [x]  [Pratical Javascript](https://watchandcode.com/p/practical-javascript)
-- [ ]  `[In progress]` [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)  
-- [ ]  [Object Oriented Javascript](https://www.udacity.com/course/object-oriented-javascript--ud711)
+- [ ]  [Database Mini-Courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about) - take all mini-courses 
 
 
 
@@ -88,38 +78,6 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  [Open Data Structures](http://www.aupress.ca/books/120226/ebook/99Z_Morin_2013-Open_Data_Structures.pdf)
 
 Additional books can be found [here](https://github.com/P1xt/speedstudy/blob/master/book-lists.md)
-
-## Bonus List
-
-| Activity                                    | Points for completing | Activity type |
-| ------------------------------------------- | --------------------- | ------------- |
-| Basic Project                               | 100                   | project       |
-| Substantial Project                         | 200                   | project       |
-| Large Project                               | 300                   | project       |
-| Gigantic Project                            | 400                   | project       |
-| Duolingo or MosaLingua (1 level)            | 100                   | foundation    |
-| Book                                        | 200                   | foundation    |
-| Tutorial site (Udemy/Pluralsight/Egghead/Treehouse/etc) course | 100 | foundation   |
-| University level course (Coursera/edX/MITOCW/etc) | 500             | foundation    |
-| Physical Activity (30 minutes)              | 10                    | foundation    |
-| Musical Instrument Practice (30 minutes)    | 10                    | foundation    |
-| Khan Academy (30 minutes)                   | 10                    | foundation    |
-| Analytics Vidhya Competition                | 50                    | data-science  |
-| Crowd Analytix Competition                  | 50                    | data-science  |
-| Kaggle Competition                          | 50                    | data-science  |
-| Driven Data Competition                     | 50                    | data-science  |
-| Blog Post on any topic                      | 15                    | communication |
-| Blog Post Tutorial                          | 40                    | communication |
-| Video Tutorial                              | 50                    | communication |
-| Open Source PR                              | 50                    | communication |
-| Module to npm                               | 200                   | communication |
-| Team Up for a project                       | 100                   | communication |
-| Diary entry                                 | 5                     | communication |
-| CodeWars (10 problems)                      | 50                    | algorithms    |
-| CodinGame (1 Tier)                          | 100                   | algorithms    |
-| CodinGame (1 Bot Competition)               | 20                    | algorithms    |
-| HackerRank (10 problems)                    | 50                    | algorithms    |
-| Google Code Jam (1 round from past contest) | 100                   | algorithms    |
 
 ## Project ideas
 
