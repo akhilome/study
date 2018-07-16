@@ -107,3 +107,46 @@ const weakOneTwo = new WeakMap();
 
 Again, be aware that WeakMaps can only contain objects as keys. Passing anything other than an object in the WeakMap's `.set()` method results in a `TypeError`.
 
+## On other built-ins
+
+### Promise
+
+A Javascript `Promise` is the new way to handle asynchronous requests (_more reading is needed on this_).
+
+### Proxies
+
+Javascript proxies let an object 'stand in' for another object to handle interactions for that other object.
+
+For creating new proxies, the `new Proxy()` constructor is used which can accept two arguments as follows:
+
+```js
+const awesomeObject = {property1: 'value 1'};
+const handler = {
+  get(target, property) { // a 'trap'
+    console.log('My oga is busy, call back later');
+  }
+};
+
+const sweetProxy = new Proxy(awesomeObject, handler);
+
+sweetProxy.property; //=> My oga is busy, call back later
+
+```
+The first argument is the object being proxied and the second is the handler object.
+
+As also seen above, the handler object consists 'traps'. These traps intercept calls to the proxied object.
+
+### Generators
+
+They are pausable functions which, unlike 'normal' javascript functions (which run from top-to-bottom or until a `return` keyword), can be paused mid-execution.
+
+Generator functions have an asterisk (`*`) placed between the `function` keyword and the function name as follows:
+
+```js
+function* aGenerator() { ... }
+```
+It should be noted that just calling a generator function (e.g. `aGenerator();`) returns an iterator object.
+
+The `yield` keyword, when used within the generator function, causes the function execution to 'pause'.
+
+Also, the `yield` keyword (coupled with `.next()`) can be used to send data into the generator function, while just the `yield` keyword can be used to get data out of the generator function (synonymous to `return`ing data from a normal function).
