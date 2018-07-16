@@ -10,8 +10,8 @@ Become an Andelan.
 
 ## Progress
 
-**Current Course(s)**: [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)   
-**Courses Completed**: 5  
+**Current Course(s)**: [Javascript 30](https://javascript30.com/) && [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x)    
+**Courses Completed**: 6  
 
 | Date Finished | Activity          | Links  												   								|  
 | ------------- | ----------------- | ------------------------------------------------|
@@ -24,8 +24,9 @@ Become an Andelan.
 | WIP			      | Book						  | [You Don't Know JS: Scope & Closures](https://github.com/akhilome/ss2018/tree/master/books/ydkjs_scope_and_closures)  |
 | 26-02-2018	  | Course					  | [Pratical Javascript](https://github.com/akhilome/ss2018/tree/master/courses/practical_javascript)  |
 | 08-03-2018    | Blog Post   	    | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/)  |
-| WIP       	  | Course            | [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356)  |
-| | | |
+| 17-07-2018    | Course            | [ES6 - Javascript Improved](courses/es6/)  |
+| WIP           | Course            | [Javascript 30](https://javascript30.com/)  |
+| WIP           | Course            | [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) |
 
 
 ## Get Job Ready
@@ -38,9 +39,9 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [x]  [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)    
 - [x]  [Pratical Javascript](https://watchandcode.com/p/practical-javascript) 
 - [ ]  `[stalled]` [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
-- [ ]  `[In progress]` [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356) 
-- [ ]  [Javascript 30](https://javascript30.com/) 
-- [ ]  [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
+- [x]  [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356) 
+- [ ] `[In progress]` [Javascript 30](https://javascript30.com/) 
+- [ ] `[In progress]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
 - [ ]  [CS50 - Web programming with Javascript & Python](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript-0) 
 - [ ]  [Learn Node](https://learnnode.com/) 
 - [ ]  [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/) 
