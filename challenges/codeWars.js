@@ -542,3 +542,38 @@ const thirt = n => {
 
 	return output === n ? output : thirt(output);
 }
+
+/* 
+	#14: 07/17/2018
+	
+	Write a function that will return the count of distinct case-insensitive 
+	alphabetic characters and numeric digits that occur more than once in the 
+	input string. The input string can be assumed to contain only alphabets 
+	(both uppercase and lowercase) and numeric digits.
+
+	Example: 
+
+	"abcde" -> 0 # no characters repeats more than once
+	"aabbcde" -> 2 # 'a' and 'b'
+	"aabBcde" -> 2 # 'a' occurs twice and 'b' twice (b and B)
+
+*/
+
+// My Solution:
+
+const duplicateCount = text => {
+  if (!text) return 0; // no need moving forward if input is empty
+
+  let tracker = new Set(); // keep track of all characters in the input
+  let dupes = new Set(); // keep track of duplicate characters
+
+  for (const char of text.toLowerCase()) {
+    if(tracker.has(char)) {
+      dupes.add(char);
+    } else {
+      tracker.add(char);
+    }
+  }
+  
+  return dupes.size;
+}
