@@ -1,6 +1,6 @@
 # Concise Notes from Practical Javascript
 
-This md contains brief pointers on new concepts I encounter as I go through the [Practical Javascript](https://watchandcode.com/p/practical-javascript) course.
+This md contains brief pointers on new concepts I encounter as I go through the [Practical Javascript](https://watchandcode.com/p/practical-javascript) course. [Click here](code/) to see a live version of the app built.
 
 * Arrays in Programming are synonymous to lists in the real world.
 

@@ -1,6 +1,6 @@
 # How To Code HTML And CSS
 
-This md contains my notes from the course [Learn TO Code HTML and CSS](https://learn.shayhowe.com/html-css/building-your-first-web-page/)
+This md contains my notes from the course [Learn To Code HTML and CSS](https://learn.shayhowe.com/html-css/building-your-first-web-page/). Also, [click here](styles-conference/) to access the website built by following this course/book.
 
 ## Lesson 1
 
