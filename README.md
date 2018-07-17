@@ -13,9 +13,9 @@ Become an Andelan.
 **Current Course(s)**: [Javascript 30](https://javascript30.com/) && [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x)    
 **Courses Completed**: 6  
 
-| Date Finished | Activity          | Links  												   								|  
+| Date Finished | Activity          | Link to Notes  												   				|  
 | ------------- | ----------------- | ------------------------------------------------|
-| 05-01-2018    | Course 				    | [Try Git](https://try.github.io/levels/1/challenges/1)  |
+| 05-01-2018    | Course 				    | Try Git                                         |
 | 13-01-2018 	  | Course 					  | [How to Use Git and Github](courses/how_to_use_git_and_github) |
 | 12-02-2018 	  | Course					  | [Learn to Code HTML & CSS](courses/learn_to_code_HTML_and_CSS) |
 | 19-02-2018	  | Book							| [You Don't Know JS: Up & Going](books/ydkjs_up_and_going)  |
