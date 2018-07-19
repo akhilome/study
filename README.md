@@ -25,7 +25,7 @@ Become an Andelan.
 | 26-02-2018	  | Course					  | [Pratical Javascript](courses/practical_javascript)  |
 | 08-03-2018    | Blog Post   	    | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/)  |
 | 17-07-2018    | Course            | [ES6 - Javascript Improved](courses/es6/)  |
-| WIP           | Course            | [Javascript 30](https://javascript30.com/)  |
+| WIP           | Course            | [Javascript 30](https://github.com/akhilome/js30/)  |
 | WIP           | Course            | [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) |
 
 
