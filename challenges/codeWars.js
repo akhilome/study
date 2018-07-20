@@ -577,3 +577,49 @@ const duplicateCount = text => {
   
   return dupes.size;
 }
+
+/* 
+	#15: 07/20/2018
+
+	Complete the function scramble(str1, str2) that returns true if a 
+	portion of str1 characters can be rearranged to match str2, otherwise 
+	returns false.
+
+	Notes:
+	- Only lower case letters will be used (a-z). No punctuation or digits 
+		will be included.
+	- Performance needs to be considered.
+
+	Examples:
+	
+	scramble('rkqodlw', 'world') ==> True
+	scramble('cedewaraaossoqqyt', 'codewars') ==> True
+	scramble('katas', 'steak') ==> False
+
+*/
+
+// My Solution: 
+
+const mappify = word => {
+  const map = new Map();
+  for (const char of word) {
+    if (map.has(char)) {
+      map.set(char, map.get(char) + 1);
+    } else {
+      map.set(char, 1);
+    }
+  }
+
+  return map;
+}
+
+const scramble = (str1, str2) => {
+  const map1 = mappify(str1);
+  const map2 = mappify(str2);
+
+  for (const item of map2) {
+    if (!(map1.has(item[0]) && map1.get(item[0]) >= item[1])) return false;
+  }
+
+  return true;
+}
