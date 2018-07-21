@@ -676,3 +676,73 @@ const generateHashtag = str => {
   const hashed = `#${str.trim().split(' ').map(proper).join('')}`;
   return hashed.length > 140 ? false : hashed;
 }
+
+/* 
+	#18: 07/21/2018
+
+	Pete likes to bake some cakes. He has some recipes and ingredients. 
+	Unfortunately he is not good in maths. Can you help him to find out, 
+	how many cakes he could bake considering his recipes?
+
+	Write a function cakes(), which takes the recipe (object) and the 
+	available ingredients (also an object) and returns the maximum number 
+	of cakes Pete can bake (integer). For simplicity there are no units 
+	for the amounts (e.g. 1 lb of flour or 200 g of sugar are simply 1 or 200). 
+	Ingredients that are not present in the objects, can be considered as 0.
+
+	Examples:
+
+	// must return 2
+	cakes({flour: 500, sugar: 200, eggs: 1}, {flour: 1200, sugar: 1200, eggs: 5, milk: 200}); 
+
+	// must return 0
+	cakes({apples: 3, flour: 300, sugar: 150, milk: 100, oil: 100}, {sugar: 500, flour: 2000, milk: 2000});
+
+*/
+
+/* My first working solution */
+
+// Takes two arrays as arguments and check if argument 1 is a subset of argument 2
+const isSubset = (child, parent) => {
+  for (const elem of child) {
+    if (!parent.includes(elem)) return false;
+  }
+  return true;
+}
+
+// The cakes calculator
+function cakes(recipe, available) {
+  // Get all keys of each arg and store them in their respective arrays
+  let rList = Object.keys(recipe);
+  let aList = Object.keys(available);
+
+  // Make sure all elements in the recipe are present in the available ingredients
+  if(!isSubset(rList, aList)) return 0;
+
+  const makeable = []; // Keeps track of makeable units of each ingredient
+
+  // Loop over each item of the recipe list and send the makeable units to the tracker
+  for(const item of rList) makeable.push(Math.floor(available[item]/recipe[item]));
+
+  // Sort the tracker in ascending order and return the lowest unit
+  return makeable.sort((a, b) => a - b)[0];
+}
+
+/* My second solution after seeing others' implementation and rediscovering:
+
+	- Object.hasOwnProperty(key),
+	- for ... in loops, and
+	- Math.min()
+
+*/
+
+const cakes = (recipe, available) => {
+  const makeable = [];
+  
+  for (const key in recipe) {
+    if(!available.hasOwnProperty(key)) return 0;
+    makeable.push(Math.floor(available[key]/recipe[key]));
+  }
+
+  return Math.min(...makeable);
+}
