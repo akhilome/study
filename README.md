@@ -29,9 +29,11 @@ Become an Andelan.
 | WIP           | Course            | [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) |
 
 
-## Get Job Ready
+## Get Done, Now.
 
-Work through these courses, read the books listed below, and frequently supplement with "bonus activities" listed below.
+Work through these courses, read the books listed below, and frequently supplement with "project ideas" listed below.
+
+### Courses
 
 - [x]  [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
 - [x]  [Try Git](https://try.github.io/levels/1/challenges/1)
@@ -40,15 +42,45 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [x]  [Pratical Javascript](https://watchandcode.com/p/practical-javascript) 
 - [ ]  `[stalled]` [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
 - [x]  [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356) 
-- [ ] `[In progress]` [Javascript 30](https://javascript30.com/) 
-- [ ] `[In progress]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
-- [ ]  [CS50 - Web programming with Javascript & Python](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript-0) 
+- [ ]  `[In progress]` [Javascript 30](https://javascript30.com/) 
+- [ ]  `[In progress]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
+- [ ]  [Learn SQL](https://www.codecademy.com/learn/learn-sql/) 
 - [ ]  [Learn Node](https://learnnode.com/) 
-- [ ]  [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/) 
 - [ ]  [What The Flexbox?!](https://flexbox.io/) 
+- [ ]  [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
+
+
+### Books
+
+- [x]  [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)    
+- [ ]  `[In progress]` [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) 
+- [ ]  [Eloquent Javascript](https://eloquentjavascript.net) 
+- [ ]  [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
+- [ ]  [You Don't Know JS: Types & Grammar](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar)   
+- [ ]  [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance) 
+- [ ]  [You Don't Know JS: ES6 & Beyond](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond)  
+
+
+### Project Ideas
+
+- [ ]  [Random Quote Generator](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine/) 
+- [ ]  [Pomodoro Clock](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-pomodoro-clock/) 
+- [ ]  [Timestamp Microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice/) 
+- [ ]  [URL Shortner Microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice/) 
+
+## Wish List
+
+Courses / Resources / Projects I'm 'eyeing'.
+
+### Courses
+
+- [ ]  [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/) 
+- [ ]  [Watch and Code Premium](https://watchandcode.com/p/premium) 
 - [ ]  [ES6 For Everyone](https://es6.io/) 
+- [ ]  [CS50 - Web programming with Javascript & Python](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript-0) 
 - [ ]  [Data Visualization and D3.js](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
-- [ ]  [MongoDB for Developers](https://university.mongodb.com/courses/M101P/about) - note: this course is only intermittently offered, sign up at the start of the Tier, then proceed to the other courses and return to this one when it's in session 
+- [ ]  [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/) 
+- [ ]  [MongoDB for Developers](https://university.mongodb.com/courses/M101P/about) 
 - [ ]  [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11) 
 - [ ]  [Calculus One](https://www.coursera.org/learn/calculus1)  
 - [ ]  [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6) 
@@ -58,29 +90,22 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  [Database Mini-Courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about) - take all mini-courses 
 
 
+### Books
 
----
-
-
-## Book Suggestions
 - [ ]  [College Algebra](https://openstax.org/details/books/college-algebra)
 - [ ]  [Precalculus](https://openstax.org/details/books/precalculus)  
-- [x]  [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)    
-- [ ]  `[In progress]` [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) 
-- [ ]  [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
-- [ ]  [You Don't Know JS: Types & Grammar](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar)   
-- [ ]  [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance) 
-- [ ]  [You Don't Know JS: ES6 & Beyond](https://github.com/getify/You-Dont-Know-JS/blob/master/es6%20&%20beyond/README.md#you-dont-know-js-es6--beyond)  
 - [ ]  [JavaScript Allongé, the "Six" Edition](https://leanpub.com/javascriptallongesix)
 - [ ]  [JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
 - [ ]  [Think Python](http://greenteapress.com/thinkpython2/thinkpython2.pdf)
 - [ ]  Study: [The Flask User Guide](http://flask.pocoo.org/docs/0.12/) or [the Django documentation](https://docs.djangoproject.com/en/1.11/) - pick based on which is more prevalent in your area, which you personally prefer, or any other criteria you choose, but pick one and study it thoroughly. Do the tutorials, read it all, learn testing, auth, databases, all of it.
 - [ ]  Study: [The pytest testing tool](https://docs.pytest.org/en/latest/) read the docs thoroughly, experiment with the examples and become proficient with pytest (including unittest and nose).
-- [ ]  [Open Data Structures](http://www.aupress.ca/books/120226/ebook/99Z_Morin_2013-Open_Data_Structures.pdf)
+- [ ]  [Open Data Structures](http://www.aupress.ca/books/120226/ebook/99Z_Morin_2013-Open_Data_Structures.pdf) 
 
 Additional books can be found [here](https://github.com/P1xt/speedstudy/blob/master/book-lists.md)
 
-## Project ideas
+---
+
+### Project ideas
 
 *   Pick a template from [\[here\]](https://freebiesbug.com/psd-freebies/website-template/), [\[here\]](http://www.os-templates.com/free-website-templates), or [\[here\]](http://www.os-templates.com/free-website-templates) and implement the frontend of a website with it as your inspiration (do not use its assets)
 *   Complete any 5 projects from [100 Days of CSS](https://100dayscss.com/).
