@@ -27,7 +27,7 @@ Become an Andelan.
 | 17-07-2018    | Course            | [ES6 - Javascript Improved](courses/es6/)  |
 | WIP           | Course            | [Javascript 30](https://github.com/akhilome/js30/)  |
 | WIP           | Course            | [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) |
-| WIP           | Course            | [Learn SQL](https://www.codecademy.com/learn/learn-sql/) |
+| WIP           | Course            | [Learn SQL](courses/learn_sql) |
 
 
 ## Get Done, Now.
