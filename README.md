@@ -28,6 +28,7 @@ Become an Andelan.
 | WIP           | Course            | [Javascript 30](https://github.com/akhilome/js30/)  |
 | WIP           | Course            | [CS50 - Introduction to Computer Science](courses/cs50) |
 | WIP           | Course            | [Learn SQL](courses/learn_sql) |
+| 04-08-2018    | Project           | [Random Quotes Generator](projects/random-quotes) |
 
 
 ## Get Done, Now.
