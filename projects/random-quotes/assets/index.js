@@ -3,7 +3,7 @@ const quoteBox = document.getElementById('quote');
 function getQuote() {
   // Handles quote fetching and HTML population
   (function () {
-    const sauce = 'http://quotes.stormconsultancy.co.uk/random.json';
+    const sauce = 'https://talaikis.com/api/quotes/random/';
     
     fetch(sauce)
       .then(data => data.json())
