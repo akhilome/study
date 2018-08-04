@@ -1,0 +1,36 @@
+body {
+  font-family: 'Muli', sans-serif;
+  line-height: 1.75;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90vh;
+}
+
+* > * {
+  transition: all 0.5s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+#quote {
+  background: #333;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 20px 40px;
+  color: #fff;
+  display: flex;
+  padding: 25px 50px;
+  margin: auto;
+  max-width: 360px;
+}
+
+#quote:hover {
+  transform: scale(1.1, 1.1);
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 30px 60px;
+}
+
+.author {
+  background: #fff;
+  color: #333;
+  font-size: .9rem;
+  font-weight: 700;
+  padding: 2px 4px;
+}
