@@ -29,6 +29,7 @@ Become an Andelan.
 | WIP           | Course            | [CS50 - Introduction to Computer Science](courses/cs50) |
 | WIP           | Course            | [Learn SQL](courses/learn_sql) |
 | 04-08-2018    | Project           | [Random Quotes Generator](projects/random-quotes) |
+| 05-08-2018    | Blog Post         | [Counting Dupes with Javascript Sets](https://akhilo.me/code/duplicate-javascript-set/) | 
 
 
 ## Get Done, Now. 
