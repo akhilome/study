@@ -31,11 +31,11 @@ Become an Andelan.
 | 04-08-2018    | Project           | [Random Quotes Generator](projects/random-quotes) |
 
 
-## Get Done, Now.
+## Get Done, Now. 
 
 Work through these courses, read the books listed below, and frequently supplement with "project ideas" listed below.
 
-### Courses
+### Courses 
 
 - [x]  [Learning How to Learn](https://www.coursera.org/learn/learning-how-to-learn)
 - [x]  [Try Git](https://try.github.io/levels/1/challenges/1)
@@ -52,7 +52,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
 
 
-### Books
+### Books 
 
 - [x]  [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)    
 - [ ]  `[In progress]` [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) 
@@ -65,7 +65,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 
 ### Project Ideas
 
-- [ ]  [Random Quote Generator](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine/) 
+- [x]  [Random Quote Generator](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-random-quote-machine/) 
 - [ ]  [Pomodoro Clock](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-pomodoro-clock/) 
 - [ ]  [Timestamp Microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice/) 
 - [ ]  [URL Shortner Microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice/) 
