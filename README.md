@@ -25,7 +25,7 @@ Become an Andelan.
 | 26-02-2018	  | Course					  | [Pratical Javascript](courses/practical_javascript)  |
 | 08-03-2018    | Blog Post   	    | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/)  |
 | 17-07-2018    | Course            | [ES6 - Javascript Improved](courses/es6/)  |
-| WIP           | Course            | [Javascript 30](https://github.com/akhilome/js30/)  |
+| WIP           | Course            | [Javascript 30](https://akhilome.github.io/js30/)  |
 | WIP           | Course            | [CS50 - Introduction to Computer Science](courses/cs50) |
 | WIP           | Course            | [Learn SQL](courses/learn_sql) |
 | 04-08-2018    | Project           | [Random Quotes Generator](projects/random-quotes) |
