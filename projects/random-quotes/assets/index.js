@@ -20,8 +20,21 @@ function getQuote() {
   })();
 }
 
+function getTweet() {
+  const tweet = quoteBox.innerText;
+  window.open(`https://twitter.com/intent/tweet?text=${tweet.length > 275 ? tweet.slice(0, 275) + ' [...]' : tweet}`);
+}
+
+// Listeners for populating page with quotes
 window.addEventListener('keyup', function(e){
   if (e.key === 'Enter') getQuote();
 });
 
 quoteBox.onclick = getQuote;
+
+// Listeners for Tweeting
+window.addEventListener('keyup', function (e){
+  if (e.key === 't' || e.key === 'T') getTweet();
+});
+
+document.querySelector('body').ondblclick = getTweet;
