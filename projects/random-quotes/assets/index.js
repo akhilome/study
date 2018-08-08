@@ -20,7 +20,8 @@ function getQuote() {
   })();
 }
 
-function getTweet() {
+function getTweet(e) {
+  if(!e.target.matches('body')) return;
   const tweet = quoteBox.innerText;
   window.open(`https://twitter.com/intent/tweet?text=${tweet.length > 275 ? tweet.slice(0, 275) + ' [...]' : tweet}`);
 }
@@ -34,7 +35,7 @@ quoteBox.onclick = getQuote;
 
 // Listeners for Tweeting
 window.addEventListener('keyup', function (e){
-  if (e.key === 't' || e.key === 'T') getTweet();
+  if (e.key === 't' || e.key === 'T') getTweet(e);
 });
 
-document.querySelector('body').ondblclick = getTweet;
+document.querySelector('body').onclick = getTweet;
