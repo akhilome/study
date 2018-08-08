@@ -39,3 +39,4 @@ window.addEventListener('keyup', function (e){
 });
 
 document.querySelector('body').onclick = getTweet;
+document.querySelector('body').addEventListener('touchend', getTweet);
