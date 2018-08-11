@@ -10,8 +10,8 @@ Become an Andelan.
 
 ## Progress
 
-**Current Course(s)**: [Javascript 30](https://javascript30.com/) && [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) && [Learn SQL](https://www.codecademy.com/learn/learn-sql/)     
-**Courses Completed**: 6  
+**Current Course(s)**: [Javascript 30](https://javascript30.com/) && [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x)    
+**Courses Completed**: 7  
 
 | Date Finished | Activity          | Link to Notes  												   				|  
 | ------------- | ----------------- | ------------------------------------------------|
@@ -27,7 +27,7 @@ Become an Andelan.
 | 17-07-2018    | Course            | [ES6 - Javascript Improved](courses/es6/)  |
 | WIP           | Course            | [Javascript 30](https://akhilome.github.io/js30/)  |
 | WIP           | Course            | [CS50 - Introduction to Computer Science](courses/cs50) |
-| WIP           | Course            | [Learn SQL](courses/learn_sql) |
+| 11-08-2018    | Course            | [Learn SQL](courses/learn_sql) |
 | 04-08-2018    | Project           | [Random Quotes Generator](projects/random-quotes) |
 | 05-08-2018    | Blog Post         | [Counting Dupes with Javascript Sets](https://akhilo.me/code/duplicate-javascript-set/) | 
 
@@ -47,7 +47,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [x]  [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356) 
 - [ ]  `[In progress]` [Javascript 30](https://javascript30.com/) 
 - [ ]  `[In progress]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
-- [ ]  `[In progress]` [Learn SQL](https://www.codecademy.com/learn/learn-sql/) 
+- [x]  [Learn SQL](https://www.codecademy.com/learn/learn-sql/) 
 - [ ]  [Learn Node](https://learnnode.com/) 
 - [ ]  [What The Flexbox?!](https://flexbox.io/) 
 - [ ]  [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
