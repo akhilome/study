@@ -70,6 +70,8 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  [Pomodoro Clock](https://learn.freecodecamp.org/front-end-libraries/front-end-libraries-projects/build-a-pomodoro-clock/) 
 - [ ]  [Timestamp Microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/timestamp-microservice/) 
 - [ ]  [URL Shortner Microservice](https://learn.freecodecamp.org/apis-and-microservices/apis-and-microservices-projects/url-shortener-microservice/) 
+- [ ]  Random Quotes API 
+- [ ]  Finish [Maintenance Tracker App](https://github.com/akhilome/mantrckr) 
 
 ## Wish List
 
