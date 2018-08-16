@@ -30,6 +30,8 @@ Become an Andelan.
 | 11-08-2018    | Course            | [Learn SQL](courses/learn_sql) |
 | 04-08-2018    | Project           | [Random Quotes Generator](projects/random-quotes) |
 | 05-08-2018    | Blog Post         | [Counting Dupes with Javascript Sets](https://akhilo.me/code/duplicate-javascript-set/) | 
+| WIP           | Course            | [Learn Node](https://learnnode.com)   |
+
 
 
 ## Get Done, Now. 
@@ -48,7 +50,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  `[In progress]` [Javascript 30](https://javascript30.com/) 
 - [ ]  `[In progress]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
 - [x]  [Learn SQL](https://www.codecademy.com/learn/learn-sql/) 
-- [ ]  [Learn Node](https://learnnode.com/) 
+- [ ]  `[In progress]` [Learn Node](https://learnnode.com/) 
 - [ ]  [What The Flexbox?!](https://flexbox.io/) 
 - [ ]  [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
 
