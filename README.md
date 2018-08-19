@@ -10,7 +10,7 @@ Become an Andelan.
 
 ## Progress
 
-**Current Course(s)**: [Javascript 30](https://javascript30.com/) && [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x)    
+**Current Course(s)**: [Javascript 30](https://javascript30.com/) && [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) && [Learn Node](https://learnnode.com)   
 **Courses Completed**: 7  
 
 | Date Finished | Activity          | Link to Notes  												   				|  
