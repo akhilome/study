@@ -31,6 +31,8 @@ Become an Andelan.
 | 04-08-2018    | Project           | [Random Quotes Generator](projects/random-quotes) |
 | 05-08-2018    | Blog Post         | [Counting Dupes with Javascript Sets](https://akhilo.me/code/duplicate-javascript-set/) | 
 | WIP           | Course            | [Learn Node](https://learnnode.com)   |
+| WIP           | Book              | [Eloquent Javascript](books/eloquent-js)  |
+| | | |
 
 
 
@@ -59,7 +61,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 
 - [x]  [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)    
 - [x]  [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) 
-- [ ]  [Eloquent Javascript](https://eloquentjavascript.net) 
+- [ ]  `[In progress]`[Eloquent Javascript](https://eloquentjavascript.net) 
 - [ ]  [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
 - [ ]  [You Don't Know JS: Types & Grammar](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar)   
 - [ ]  [You Don't Know JS: Async & Performance](https://github.com/getify/You-Dont-Know-JS/blob/master/async%20&%20performance/README.md#you-dont-know-js-async--performance) 
