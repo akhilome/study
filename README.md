@@ -21,7 +21,7 @@ Become an Andelan.
 | 19-02-2018	  | Book							| [You Don't Know JS: Up & Going](books/ydkjs_up_and_going)  |
 | 08-02-2018	  | Course					  | [Learning How to Learn](courses/learning_how_to_learn) |
 | Stalled 			| Course  					| [Programming for the Web with JavaScript](courses/programming_for_the_web_with_js) |
-| WIP			      | Book						  | [You Don't Know JS: Scope & Closures](books/ydkjs_scope_and_closures)  |
+| 19-02-2018	  | Book						  | [You Don't Know JS: Scope & Closures](books/ydkjs_scope_and_closures)  |
 | 26-02-2018	  | Course					  | [Pratical Javascript](courses/practical_javascript)  |
 | 08-03-2018    | Blog Post   	    | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/)  |
 | 17-07-2018    | Course            | [ES6 - Javascript Improved](courses/es6/)  |
@@ -58,7 +58,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 ### Books 
 
 - [x]  [You Don't Know JS: Up & Going](https://github.com/getify/You-Dont-Know-JS/blob/master/up%20&%20going/README.md#you-dont-know-js-up--going)    
-- [ ]  `[In progress]` [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) 
+- [x]  [You Don't Know JS: Scope & Closures](https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures) 
 - [ ]  [Eloquent Javascript](https://eloquentjavascript.net) 
 - [ ]  [You Don't Know JS: this & Object Prototypes](https://github.com/getify/You-Dont-Know-JS/blob/master/this%20&%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes)
 - [ ]  [You Don't Know JS: Types & Grammar](https://github.com/getify/You-Dont-Know-JS/blob/master/types%20&%20grammar/README.md#you-dont-know-js-types--grammar)   
