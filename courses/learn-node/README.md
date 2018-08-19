@@ -13,7 +13,7 @@ These are my quick notes from Wes Bos' [Learn Node](https://learnnode.com/) cour
 * `.env` files should not be tracked by git, add it to `.gitignore`
 * Be sure to install the `dotenv` package from npm, require/import it and configure the appropriate path. Typically: 
 ```js
-import dotenv from dotenv
+import dotenv from 'dotenv';
 
 dotenv.config(); // if the environmental variable file is simply '.env'
 // or 
