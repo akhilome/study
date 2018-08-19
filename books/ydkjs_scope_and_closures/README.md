@@ -8,3 +8,4 @@ My notes:
 * Chapter 2 - [Lexical Scope](ch2.md) 
 * Chapter 3 - [Function vs Block Scope](ch3.md)
 * Chapter 4 - [Hoisting](ch4.md) 
+* Chapter 5 & Appendicies - [Scope Closure](ch5.md) 
