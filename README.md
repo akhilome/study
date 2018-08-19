@@ -18,10 +18,10 @@ Become an Andelan.
 | 05-01-2018    | Course 				    | Try Git                                         |
 | 13-01-2018 	  | Course 					  | [How to Use Git and Github](courses/how_to_use_git_and_github) |
 | 12-02-2018 	  | Course					  | [Learn to Code HTML & CSS](courses/learn_to_code_HTML_and_CSS) |
-| 19-08-2018	  | Book							| [You Don't Know JS: Up & Going](books/ydkjs_up_and_going)  |
+| 19-02-2018	  | Book							| [You Don't Know JS: Up & Going](books/ydkjs_up_and_going)  |
 | 08-02-2018	  | Course					  | [Learning How to Learn](courses/learning_how_to_learn) |
 | Stalled 			| Course  					| [Programming for the Web with JavaScript](courses/programming_for_the_web_with_js) |
-| 19-02-2018	  | Book						  | [You Don't Know JS: Scope & Closures](books/ydkjs_scope_and_closures)  |
+| 19-08-2018	  | Book						  | [You Don't Know JS: Scope & Closures](books/ydkjs_scope_and_closures)  |
 | 26-02-2018	  | Course					  | [Pratical Javascript](courses/practical_javascript)  |
 | 08-03-2018    | Blog Post   	    | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/)  |
 | 17-07-2018    | Course            | [ES6 - Javascript Improved](courses/es6/)  |
