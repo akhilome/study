@@ -16,18 +16,18 @@ Become an Andelan.
 | Date Finished | Activity          | Link to Notes  												   				|  
 | ------------- | ----------------- | ------------------------------------------------|
 | 05-01-2018    | Course 				    | Try Git                                         |
-| 13-01-2018 	  | Course 					  | [How to Use Git and Github](courses/how_to_use_git_and_github) |
-| 12-02-2018 	  | Course					  | [Learn to Code HTML & CSS](courses/learn_to_code_HTML_and_CSS) |
-| 19-02-2018	  | Book							| [You Don't Know JS: Up & Going](books/ydkjs_up_and_going)  |
-| 08-02-2018	  | Course					  | [Learning How to Learn](courses/learning_how_to_learn) |
-| Stalled 			| Course  					| [Programming for the Web with JavaScript](courses/programming_for_the_web_with_js) |
-| 19-08-2018	  | Book						  | [You Don't Know JS: Scope & Closures](books/ydkjs_scope_and_closures)  |
-| 26-02-2018	  | Course					  | [Pratical Javascript](courses/practical_javascript)  |
+| 13-01-2018 	  | Course 					  | [How to Use Git and Github](courses/how-to-use-git-and-github) |
+| 12-02-2018 	  | Course					  | [Learn to Code HTML & CSS](courses/learn-to-code-HTML-and-CSS) |
+| 19-02-2018	  | Book							| [You Don't Know JS: Up & Going](books/ydkjs-up-and-going)  |
+| 08-02-2018	  | Course					  | [Learning How to Learn](courses/learning-how-to-learn) |
+| Stalled 			| Course  					| [Programming for the Web with JavaScript](courses/programming-for-the-web-with-js) |
+| 19-08-2018	  | Book						  | [You Don't Know JS: Scope & Closures](books/ydkjs-scope-and-closures)  |
+| 26-02-2018	  | Course					  | [Pratical Javascript](courses/practical-javascript)  |
 | 08-03-2018    | Blog Post   	    | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/)  |
 | 17-07-2018    | Course            | [ES6 - Javascript Improved](courses/es6/)  |
 | WIP           | Course            | [Javascript 30](https://akhilome.github.io/js30/)  |
 | WIP           | Course            | [CS50 - Introduction to Computer Science](courses/cs50) |
-| 11-08-2018    | Course            | [Learn SQL](courses/learn_sql) |
+| 11-08-2018    | Course            | [Learn SQL](courses/learn-sql) |
 | 04-08-2018    | Project           | [Random Quotes Generator](projects/random-quotes) |
 | 05-08-2018    | Blog Post         | [Counting Dupes with Javascript Sets](https://akhilo.me/code/duplicate-javascript-set/) | 
 | WIP           | Course            | [Learn Node](https://learnnode.com)   |
