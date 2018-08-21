@@ -17,7 +17,7 @@ Become an Andelan.
 | ------------- | ----------------- | ------------------------------------------------|
 | 05-01-2018    | Course 				    | Try Git                                         |
 | 13-01-2018 	  | Course 					  | [How to Use Git and Github](courses/how-to-use-git-and-github) |
-| 12-02-2018 	  | Course					  | [Learn to Code HTML & CSS](courses/learn-to-code-HTML-and-CSS) |
+| 12-02-2018 	  | Course					  | [Learn to Code HTML & CSS](courses/learn-to-code-html-and-css) |
 | 19-02-2018	  | Book							| [You Don't Know JS: Up & Going](books/ydkjs-up-and-going)  |
 | 08-02-2018	  | Course					  | [Learning How to Learn](courses/learning-how-to-learn) |
 | Stalled 			| Course  					| [Programming for the Web with JavaScript](courses/programming-for-the-web-with-js) |
