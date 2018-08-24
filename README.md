@@ -10,8 +10,8 @@ Become an Andelan.
 
 ## Progress
 
-**Current Course(s)**: [Javascript 30](https://javascript30.com/) && [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) && [Learn Node](https://learnnode.com)   
-**Courses Completed**: 7  
+**Current Course(s)**: [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) && [Learn Node](https://learnnode.com)   
+**Courses Completed**: 8  
 
 | Date Finished | Activity          | Link to Notes  												   				|  
 | ------------- | ----------------- | ------------------------------------------------|
@@ -25,7 +25,7 @@ Become an Andelan.
 | 26-02-2018	  | Course					  | [Pratical Javascript](courses/practical-javascript)  |
 | 08-03-2018    | Blog Post   	    | [Understanding Javascript Hoisting](https://akhilo.me/code/javascript-hoisting/)  |
 | 17-07-2018    | Course            | [ES6 - Javascript Improved](courses/es6/)  |
-| WIP           | Course            | [Javascript 30](https://akhilome.github.io/js30/)  |
+| 24-08-2018    | Course            | [Javascript 30](https://akhilome.github.io/js30/)  |
 | WIP           | Course            | [CS50 - Introduction to Computer Science](courses/cs50) |
 | 11-08-2018    | Course            | [Learn SQL](courses/learn-sql) |
 | 04-08-2018    | Project           | [Random Quotes Generator](projects/random-quotes) |
@@ -49,7 +49,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [x]  [Pratical Javascript](https://watchandcode.com/p/practical-javascript) 
 - [ ]  `[stalled]` [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
 - [x]  [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356) 
-- [ ]  `[In progress]` [Javascript 30](https://javascript30.com/) 
+- [x]  [Javascript 30](https://javascript30.com/) 
 - [ ]  `[In progress]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
 - [x]  [Learn SQL](https://www.codecademy.com/learn/learn-sql/) 
 - [ ]  `[In progress]` [Learn Node](https://learnnode.com/) 
