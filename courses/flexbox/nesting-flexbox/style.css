@@ -1,0 +1,70 @@
+/* Some CSS Setup - nothing to do with flexbox */
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  background-image: linear-gradient(260deg, #2376ae 0%, #c16ecf 100%);
+}
+
+.wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding:50px;
+}
+
+img {
+  max-width:100%;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+  font-size: 15px;
+  background:rgba(0,0,0,0.2);
+  padding:20px 5px;
+}
+a:hover {
+  background:rgba(0,0,0,0.4);
+}
+
+/* Main Flex Container */
+.slider-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0; 
+  display: flex;
+}
+
+/* First flex item + Flex container*/
+.slider-nav li { 
+  flex: 2; 
+  text-align: center;
+  display: flex; 
+}
+
+.slider-nav .arrow {
+  flex: 1;
+}
+
+.arrow a {
+  font-size: 30px;
+}
+
+/* Flex Item + Flex Container */
+.slider-nav a {
+  flex-basis: 100%;
+  display: flex;
+  align-items: center;
+}
+
+/* This is the flex item */
+.slider-nav span {
+  width: 100%;
+}
