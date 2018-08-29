@@ -10,8 +10,8 @@ Become an Andelan.
 
 ## Progress
 
-**Current Course(s)**: [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) && [Learn Node](https://learnnode.com) && [What The Flexbox?!](https://flexbox.io/)   
-**Courses Completed**: 8  
+**Current Course(s)**: [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) && [Learn Node](https://learnnode.com)  
+**Courses Completed**: 9  
 
 | Date Finished | Activity          | Link to Notes  												   				|  
 | ------------- | ----------------- | ------------------------------------------------|
@@ -32,7 +32,7 @@ Become an Andelan.
 | 05-08-2018    | Blog Post         | [Counting Dupes with Javascript Sets](https://akhilo.me/code/duplicate-javascript-set/) | 
 | WIP           | Course            | [Learn Node](https://learnnode.com)   |
 | WIP           | Book              | [Eloquent Javascript](books/eloquent-js)  |
-| WIP           | Course            | [What The Flexbox?!](https://flexbox.io/)    |
+| 29-08-2018    | Course            | [What The Flexbox?!](courses/flexbox)    |
 | | | |
 
 
@@ -54,7 +54,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  `[In progress]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
 - [x]  [Learn SQL](https://www.codecademy.com/learn/learn-sql/) 
 - [ ]  `[In progress]` [Learn Node](https://learnnode.com/) 
-- [ ]  `[In progress]` [What The Flexbox?!](https://flexbox.io/) 
+- [x]  [What The Flexbox?!](https://flexbox.io/) 
 - [ ]  [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
 
 
