@@ -11,19 +11,19 @@ These are my quick notes from Wes Bos' [Learn Node](https://learnnode.com/) cour
 * mLab for Mongo DB hosting, MongoDB Compass for querying database
 * Environmental variables (typically `xxx.env` files in repo root) - where you store sensitive information like API secrets, tokens and passcodes.
 * `.env` files should not be tracked by git, add it to `.gitignore`
-* Be sure to install the `dotenv` package from npm, require/import it and configure the appropriate path. Typically: 
+* Be sure to install the `dotenv` package from npm, require/import it and configure the appropriate path. Typically:
+
 ```js
 import dotenv from 'dotenv';
 
 dotenv.config(); // if the environmental variable file is simply '.env'
 // or 
 dotenv.config({path: 'variables.env'}); // if the environmental variable file is 'variables.env'
-
 ```
 
 ## Module 2 => Module 15
 
-Starting from module 4 I started following a self-documenting git-based learning format which I mentioned (here)[https://medium.com/@akhilome/week-5-1acc4a7883c7] and _kind of_ explained (here)[https://github.com/akhilome/learn-node#my-commit-message-template]. Bar those, the headings and bullets which follow contain most of my handwritten notes while traversing the course
+Starting from module 4 I started following a self-documenting git-based learning format which I mentioned [here](https://medium.com/@akhilome/week-5-1acc4a7883c7) and _kind of_ explained [here](https://github.com/akhilome/learn-node#my-commit-message-template). Bar those, the headings and bullets which follow contain most of my handwritten notes while traversing the course
 
 ### On Routing 
 
