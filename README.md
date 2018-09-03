@@ -10,7 +10,7 @@ Become an Andelan.
 
 ## Progress
 
-**Current Course(s)**: [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
+**Current Course(s)**: [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) && [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/)  
 **Courses Completed**: 10  
 
 | Date Finished | Activity          | Link to Notes  												   				|  
@@ -33,6 +33,7 @@ Become an Andelan.
 | 03-09-2018    | Course            | [Learn Node](courses/learn-node)      |
 | WIP           | Book              | [Eloquent Javascript](books/eloquent-js)  |
 | 29-08-2018    | Course            | [What The Flexbox?!](courses/flexbox)    |
+| WIP           | Course            | [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) |
 | | | |
 
 
@@ -55,7 +56,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [x]  [Learn SQL](https://www.codecademy.com/learn/learn-sql/) 
 - [x]  [Learn Node](https://learnnode.com/) 
 - [x]  [What The Flexbox?!](https://flexbox.io/) 
-- [ ]  [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
+- [ ]  `[In progress]` [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
 
 
 ### Books 
