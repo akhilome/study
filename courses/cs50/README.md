@@ -6,3 +6,4 @@ My Notes:
 * [Week 1](notes/w1.md) 
 * [Week 2](notes/w2.md) 
 * [Week 3](notes/w3.md) 
+* [Week 4](notes/w4.md) 
