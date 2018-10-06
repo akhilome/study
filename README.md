@@ -6,7 +6,7 @@ The course path of choice is a personalized version of one of P1xt's [Job Ready 
 
 ## Goal
 
-Become an Andelan.
+Become an Andelan. [**nailed!**]
 
 ## Progress
 
