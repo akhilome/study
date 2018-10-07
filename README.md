@@ -38,7 +38,7 @@ Become an Andelan. [**nailed!**]
 
 
 
-## Get Done, Now. 
+## Backlog. 
 
 Work through these courses, read the books listed below, and frequently supplement with "project ideas" listed below.
 
@@ -86,33 +86,21 @@ Courses / Resources / Projects I'm 'eyeing'.
 ### Courses
 
 - [ ]  [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/) 
-- [ ]  [Watch and Code Premium](https://watchandcode.com/p/premium) 
+- [ ]  [The Complete React Web Developer Course](https://www.udemy.com/react-2nd-edition/) 
+- [ ]  [Node With React](https://www.udemy.com/node-with-react-fullstack-web-development/) 
+- [ ]  [Modern React With Redux](https://www.udemy.com/react-redux/) 
+- [ ]  [The Complete Junior to Senior Web Developer Roadmap](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/) 
 - [ ]  [ES6 For Everyone](https://es6.io/) 
-- [ ]  [CS50 - Web programming with Javascript & Python](https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript-0) 
-- [ ]  [Data Visualization and D3.js](https://www.udacity.com/course/data-visualization-and-d3js--ud507)
 - [ ]  [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/) 
 - [ ]  [MongoDB for Developers](https://university.mongodb.com/courses/M101P/about) 
-- [ ]  [Introduction to Computer Science and Programming Using Python](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11) 
-- [ ]  [Calculus One](https://www.coursera.org/learn/calculus1)  
-- [ ]  [Introduction to Computational Thinking and Data Science](https://www.edx.org/course/introduction-computational-thinking-data-mitx-6-00-2x-6) 
-- [ ]  Challenge: [Python Interview Prep](https://www.hackerrank.com/chingu-challenge-3) on Hackerrank. Sign up now and work problems alongside the rest of the courses.
-- [ ]  [Mathematics for Computer Science](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-042j-mathematics-for-computer-science-spring-2015/index.htm) 
-- [ ]  [Intro to Machine Learning](https://www.udacity.com/course/intro-to-machine-learning--ud120) 
-- [ ]  [Database Mini-Courses](https://lagunita.stanford.edu/courses/DB/2014/SelfPaced/about) - take all mini-courses 
+- [ ]  [Data Visualization and D3.js](https://www.udacity.com/course/data-visualization-and-d3js--ud507) 
 
 
 ### Books
 
-- [ ]  [College Algebra](https://openstax.org/details/books/college-algebra)
-- [ ]  [Precalculus](https://openstax.org/details/books/precalculus)  
 - [ ]  [JavaScript Allongé, the "Six" Edition](https://leanpub.com/javascriptallongesix)
 - [ ]  [JavaScript Design Patterns](https://addyosmani.com/resources/essentialjsdesignpatterns/book/)
-- [ ]  [Think Python](http://greenteapress.com/thinkpython2/thinkpython2.pdf)
-- [ ]  Study: [The Flask User Guide](http://flask.pocoo.org/docs/0.12/) or [the Django documentation](https://docs.djangoproject.com/en/1.11/) - pick based on which is more prevalent in your area, which you personally prefer, or any other criteria you choose, but pick one and study it thoroughly. Do the tutorials, read it all, learn testing, auth, databases, all of it.
-- [ ]  Study: [The pytest testing tool](https://docs.pytest.org/en/latest/) read the docs thoroughly, experiment with the examples and become proficient with pytest (including unittest and nose).
 - [ ]  [Open Data Structures](http://www.aupress.ca/books/120226/ebook/99Z_Morin_2013-Open_Data_Structures.pdf) 
-
-Additional books can be found [here](https://github.com/P1xt/speedstudy/blob/master/book-lists.md)
 
 ---
 
