@@ -34,6 +34,8 @@ Become an Andelan. [**nailed!**]
 | WIP           | Book              | [Eloquent Javascript](books/eloquent-js)  |
 | 29-08-2018    | Course            | [What The Flexbox?!](courses/flexbox)    |
 | WIP           | Course            | [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) |
+| 09-2018       | Code Along        | [Fortunes API](https://github.com/akhilome/fortunes-api) && [Monsters API](https://github.com/akhilome/monsters-api) |
+| 09-2018       | Code Along        | [Todo API](https://github.com/akhilome/todo-api) |
 | | | |
 
 
@@ -56,6 +58,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [x]  [Learn SQL](https://www.codecademy.com/learn/learn-sql/) 
 - [x]  [Learn Node](https://learnnode.com/) 
 - [x]  [What The Flexbox?!](https://flexbox.io/) 
+- [x]  [Node, SQL, & PostgreSQL](https://www.udemy.com/node-postgresql/) 
 - [ ]  `[In progress]` [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
 
 
