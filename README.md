@@ -1,17 +1,10 @@
-# Speed Study 2018
+# Always Be Learning
 
-I **really** want to become a professional Software Engineer, this curated list of courses, books, and challenges, are what I'd be religiously following for the most part of 2018.
-
-The course path of choice is a personalized version of one of P1xt's [Job Ready Guides](https://github.com/P1xt/p1xt-guides/blob/master/job-ready-python-edition.md)
-
-## Goal
-
-Become an Andelan. [**nailed!**]
+Lifelong Learning.
 
 ## Progress
 
 **Current Course(s)**: [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) && [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/)  
-**Courses Completed**: 10  
 
 | Date Finished | Activity          | Link to Notes  												   				|  
 | ------------- | ----------------- | ------------------------------------------------|
@@ -38,8 +31,6 @@ Become an Andelan. [**nailed!**]
 | 09-2018       | Code Along        | [Todo API](https://github.com/akhilome/todo-api) |
 | | | |
 
-
-
 ## Backlog. 
 
 Work through these courses, read the books listed below, and frequently supplement with "project ideas" listed below.
@@ -60,6 +51,8 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [x]  [What The Flexbox?!](https://flexbox.io/) 
 - [x]  [Node, SQL, & PostgreSQL](https://www.udemy.com/node-postgresql/) 
 - [ ]  `[In progress]` [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
+- [ ]  [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/) 
+- [ ]  [The Complete React Web Developer Course](https://www.udemy.com/react-2nd-edition/) 
 
 
 ### Books 
@@ -88,8 +81,6 @@ Courses / Resources / Projects I'm 'eyeing'.
 
 ### Courses
 
-- [ ]  [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/) 
-- [ ]  [The Complete React Web Developer Course](https://www.udemy.com/react-2nd-edition/) 
 - [ ]  [Node With React](https://www.udemy.com/node-with-react-fullstack-web-development/) 
 - [ ]  [Modern React With Redux](https://www.udemy.com/react-redux/) 
 - [ ]  [The Complete Junior to Senior Web Developer Roadmap](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/) 
@@ -119,3 +110,7 @@ Courses / Resources / Projects I'm 'eyeing'.
 *   Clone your favorite browser extension, or create one you wish existed.
 *   Clone your favorite mobile app, or create one you wish existed.
 *   Any project you want to build - the above are all just ideas for if you're stuck for an idea - really, just build what you want!
+
+## Acknowledgements
+
+* [p1xt](https://github.com/p1xt) 
