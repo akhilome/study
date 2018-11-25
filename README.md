@@ -29,6 +29,7 @@ Lifelong Learning.
 | WIP           | Course            | [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) |
 | 09-2018       | Code Along        | [Fortunes API](https://github.com/akhilome/fortunes-api) && [Monsters API](https://github.com/akhilome/monsters-api) |
 | 09-2018       | Code Along        | [Todo API](https://github.com/akhilome/todo-api) |
+| 25-11-2018    | Tutorial          | [Node, Express, Postgres using Sequelize](https://github.com/akhilome/study/tree/master/tutorials/scotch-sequelize) |
 | | | |
 
 ## Backlog. 
@@ -42,7 +43,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [x]  [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 - [x]  [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)    
 - [x]  [Pratical Javascript](https://watchandcode.com/p/practical-javascript) 
-- [ ]  `[stalled]` [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
+- [-]  `null` [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
 - [x]  [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356) 
 - [x]  [Javascript 30](https://javascript30.com/) 
 - [ ]  `[In progress]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
