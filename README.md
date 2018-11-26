@@ -4,7 +4,7 @@ Lifelong Learning.
 
 ## Progress
 
-**Current Course(s)**: [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) && [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/)  
+**Current Course(s)**: [Node With React](https://www.udemy.com/node-with-react-fullstack-web-development/)  
 
 | Date Finished | Activity          | Link to Notes  												   				|  
 | ------------- | ----------------- | ------------------------------------------------|
@@ -29,6 +29,8 @@ Lifelong Learning.
 | WIP           | Course            | [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) |
 | 09-2018       | Code Along        | [Fortunes API](https://github.com/akhilome/fortunes-api) && [Monsters API](https://github.com/akhilome/monsters-api) |
 | 09-2018       | Code Along        | [Todo API](https://github.com/akhilome/todo-api) |
+| 10-2018       | Code Along        | [Indecision App](https://github.com/akhilome/indecision) |
+| 11-2018       | Code Along        | [Expensify](https://github.com/akhilome/expensify) |
 | 25-11-2018    | Tutorial          | [Node, Express, Postgres using Sequelize](https://github.com/akhilome/study/tree/master/tutorials/scotch-sequelize) |
 | | | |
 
@@ -43,17 +45,19 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [x]  [How to Use Git and Github](https://www.udacity.com/course/how-to-use-git-and-github--ud775)
 - [x]  [Learn to Code HTML & CSS](http://learn.shayhowe.com/html-css/)    
 - [x]  [Pratical Javascript](https://watchandcode.com/p/practical-javascript) 
-- [-]  `null` [Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x) 
+- [x]  `null` ~~[Programming for the Web with JavaScript](https://www.edx.org/course/programming-web-javascript-pennx-sd4x)~~ 
 - [x]  [ES6 - Javascript Improved](https://www.udacity.com/course/es6-javascript-improved--ud356) 
 - [x]  [Javascript 30](https://javascript30.com/) 
-- [ ]  `[In progress]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
+- [ ]  `[hold]` [CS50 - Introduction to Computer Science](https://www.edx.org/course/cs50s-introduction-computer-science-harvardx-cs50x) 
 - [x]  [Learn SQL](https://www.codecademy.com/learn/learn-sql/) 
 - [x]  [Learn Node](https://learnnode.com/) 
 - [x]  [What The Flexbox?!](https://flexbox.io/) 
 - [x]  [Node, SQL, & PostgreSQL](https://www.udemy.com/node-postgresql/) 
-- [ ]  `[In progress]` [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
+- [ ]  `[hold]` [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
 - [ ]  [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/) 
-- [ ]  [The Complete React Web Developer Course](https://www.udemy.com/react-2nd-edition/) 
+- [ ]  `[hold]` [The Complete React Web Developer Course](https://www.udemy.com/react-2nd-edition/) 
+- [ ]  `[in progress]` [Node With React](https://www.udemy.com/node-with-react-fullstack-web-development/) 
+- [ ]  [Modern React With Redux](https://www.udemy.com/react-redux/) 
 
 
 ### Books 
@@ -82,8 +86,6 @@ Courses / Resources / Projects I'm 'eyeing'.
 
 ### Courses
 
-- [ ]  [Node With React](https://www.udemy.com/node-with-react-fullstack-web-development/) 
-- [ ]  [Modern React With Redux](https://www.udemy.com/react-redux/) 
 - [ ]  [The Complete Junior to Senior Web Developer Roadmap](https://www.udemy.com/the-complete-junior-to-senior-web-developer-roadmap/) 
 - [ ]  [ES6 For Everyone](https://es6.io/) 
 - [ ]  [Learn to Code Advanced HTML & CSS](http://learn.shayhowe.com/advanced-html-css/) 
