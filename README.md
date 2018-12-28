@@ -4,7 +4,7 @@ Lifelong Learning.
 
 ## Progress
 
-**Current Course(s)**: [Node With React](https://www.udemy.com/node-with-react-fullstack-web-development/)  
+**Current Course(s)**: [Modern React With Redux](https://www.udemy.com/react-redux/)  
 
 | Date Finished | Activity          | Link to Notes  												   				|  
 | ------------- | ----------------- | ------------------------------------------------|
@@ -32,6 +32,7 @@ Lifelong Learning.
 | 10-2018       | Code Along        | [Indecision App](https://github.com/akhilome/indecision) |
 | 11-2018       | Code Along        | [Expensify](https://github.com/akhilome/expensify) |
 | 25-11-2018    | Tutorial          | [Node, Express, Postgres using Sequelize](https://github.com/akhilome/study/tree/master/tutorials/scotch-sequelize) |
+| WIP           | Tutorial          | [Modern React With Redux](https://www.udemy.com/react-redux/)  |
 | | | |
 
 ## Backlog. 
@@ -56,8 +57,8 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ]  `[hold]` [The Complete Node.js Developer Course (2nd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/) 
 - [ ]  [The Advanced Web Developer Bootcamp](https://www.udemy.com/the-advanced-web-developer-bootcamp/) 
 - [ ]  `[hold]` [The Complete React Web Developer Course](https://www.udemy.com/react-2nd-edition/) 
-- [ ]  `[in progress]` [Node With React](https://www.udemy.com/node-with-react-fullstack-web-development/) 
-- [ ]  [Modern React With Redux](https://www.udemy.com/react-redux/) 
+- [ ]  `[hold]` [Node With React](https://www.udemy.com/node-with-react-fullstack-web-development/) 
+- [ ]  `[in progress]` [Modern React With Redux](https://www.udemy.com/react-redux/) 
 
 
 ### Books 
