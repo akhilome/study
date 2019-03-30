@@ -33,6 +33,7 @@ Lifelong Learning.
 | 11-2018       | Code Along | [Expensify](https://github.com/akhilome/expensify)                                                                   |
 | 25-11-2018    | Tutorial   | [Node, Express, Postgres using Sequelize](https://github.com/akhilome/study/tree/master/tutorials/scotch-sequelize)  |
 | WIP           | Tutorial   | [Modern React With Redux](https://www.udemy.com/react-redux/)                                                        |
+| 30-03-2019    | Tutorial   | [Getting Started With Next.js](https://github.com/akhilome/study/tree/master/tutorials/hello-next)                   |
 |               |            |                                                                                                                      |
 
 ## Backlog.
