@@ -32,6 +32,7 @@ Lifelong Learning. 🤷🏾‍♂️
 | N/A           | Tutorial   | [Modern React With Redux](https://www.udemy.com/react-redux/)                                                        |
 | 30-03-2019    | Tutorial   | [Getting Started With Next.js](https://github.com/akhilome/study/tree/master/tutorials/hello-next)                   |
 | 21-04-2019    | Course     | [The Great Gatsby Bootcamp](courses/great-gatsby-bootcamp)                                                           |
+| WIP           | Course     | [Advanced NodeJS](courses/advanced-node)                                                                             |
 |               |            |                                                                                                                      |
 
 ## Backlog
