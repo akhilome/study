@@ -8,6 +8,16 @@ Udemy course by Stephen Grider which delves into the innards of the only backend
 
 ### Threadpool
 
+The default threadpool size in Node can be modified by placing the following at the top of the entry point of your application:
+
+```js
+// reducing default threadpool to 1
+process.env.UV_THREADPOOL_SIZE = 1;
+
+// increasing default threadpool to 6
+process.env.UV_THREADPOOL_SIZE = 6;
+```
+
 ### Clustering
 
 clustering in Node can be used to spin up multiple instances of the same application
