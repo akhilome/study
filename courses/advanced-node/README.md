@@ -84,3 +84,7 @@ pm2 delete <app-name>
 ```
 
 - Docs -> [pm2.io](https://pm2.io/doc/en/runtime/overview/)
+
+### Worker Threads
+
+instructor advices we pay not much attention to worker thread since it's still very experimental in node but rather reach out for clustering when whatever application that is being built calls for some form of concurrency.
