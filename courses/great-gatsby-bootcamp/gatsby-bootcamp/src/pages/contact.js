@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "gatsby"
 
 const ContactPage = () => {
   return (
@@ -17,7 +18,9 @@ const ContactPage = () => {
           <a href="https://linkedin.com/in/kizitoakhilome">Kizito Akhilome</a>
         </li>
       </ul>
-
+      <p>
+        Again, you can read more about me <Link to="/about">here</Link>
+      </p>
       <p>Looking forward to your message!</p>
     </div>
   )
