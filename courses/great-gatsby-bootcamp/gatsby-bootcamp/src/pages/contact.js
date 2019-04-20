@@ -1,9 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+import Footer from "../components/footer"
+import Header from "../components/header"
 
 const ContactPage = () => {
   return (
     <div>
+      <Header />
       <h1>I'm Available For A Chat!</h1>
       <p>You can hit me up on any of the following plaforms</p>
       <ul>
@@ -22,6 +25,7 @@ const ContactPage = () => {
         Again, you can read more about me <Link to="/about">here</Link>
       </p>
       <p>Looking forward to your message!</p>
+      <Footer />
     </div>
   )
 }

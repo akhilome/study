@@ -1,9 +1,12 @@
 import React from "react"
 import { Link } from "gatsby"
+import Footer from "../components/footer"
+import Header from "../components/header"
 
 const AboutPage = () => {
   return (
     <div>
+      <Header />
       <h1>The Skinny On Me</h1>
       <p>
         As breifly pointed out on the homepage, I am a budding full-stack-ish
@@ -56,6 +59,7 @@ const AboutPage = () => {
         You can find out how to reach out to me from{" "}
         <Link to="/contact">here</Link>
       </p>
+      <Footer />
     </div>
   )
 }
