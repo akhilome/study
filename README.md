@@ -34,7 +34,7 @@ Lifelong Learning.
 | 25-11-2018    | Tutorial   | [Node, Express, Postgres using Sequelize](https://github.com/akhilome/study/tree/master/tutorials/scotch-sequelize)  |
 | WIP           | Tutorial   | [Modern React With Redux](https://www.udemy.com/react-redux/)                                                        |
 | 30-03-2019    | Tutorial   | [Getting Started With Next.js](https://github.com/akhilome/study/tree/master/tutorials/hello-next)                   |
-| WIP           | Course     | [The Great Gatsby Bootcamp](courses/great-gatsby-bootcamp)                                                           |
+| 21-04-2019    | Course     | [The Great Gatsby Bootcamp](courses/great-gatsby-bootcamp)                                                           |
 |               |            |                                                                                                                      |
 
 ## Backlog.
@@ -61,6 +61,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ] `[hold]` [The Complete React Web Developer Course](https://www.udemy.com/react-2nd-edition/)
 - [ ] `[hold]` [Node With React](https://www.udemy.com/node-with-react-fullstack-web-development/)
 - [ ] `[in progress]` [Modern React With Redux](https://www.udemy.com/react-redux/)
+- [x] [The Great Gatsby Bootcamp](https://www.youtube.com/watch?v=8t0vNu2fCCM)
 
 ### Books
 
