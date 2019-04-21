@@ -3,6 +3,8 @@ title: "Thank You, Next.JS"
 date: "2019-04-20"
 ---
 
+![Babe](./img.jpg)
+
 I being spending a lot of time actively learning exactly how these modern React builders work, and learning Next JS was the first frog I ate.
 
 ## Gatsby? Or Next?
