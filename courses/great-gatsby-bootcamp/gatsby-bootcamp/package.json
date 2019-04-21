@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "gatsby build",
-    "develop": "gatsby develop",
+    "develop": "env-cmd .env.dev gatsby develop",
     "format": "prettier --write src/**/*.{js,jsx}",
     "start": "npm run develop",
     "serve": "gatsby serve",
@@ -20,6 +20,7 @@
     "react-dom": "^16.8.6"
   },
   "devDependencies": {
+    "env-cmd": "^8.0.2",
     "prettier": "^1.17.0"
   },
   "repository": {
