@@ -1,41 +1,36 @@
 import React from "react"
 import Layout from "../components/layout"
-import { useStaticQuery, graphql, Link } from "gatsby"
+import { graphql, Link } from "gatsby"
 import styles from "./blog.module.scss"
 
-const BlogPage = () => {
-  const {
-    allMarkdownRemark: { edges },
-  } = useStaticQuery(graphql`
-    query {
-      allMarkdownRemark {
-        edges {
-          node {
-            frontmatter {
-              title
-              date
-            }
-            fields {
-              slug
-            }
-          }
-        }
+export const query = graphql`
+  query {
+    allContentfulBlogPost(sort: { fields: publishedDate, order: DESC }) {
+      nodes {
+        title
+        slug
+        publishedDate(fromNow: true)
       }
     }
-  `)
+  }
+`
+
+const BlogPage = ({
+  data: {
+    allContentfulBlogPost: { nodes },
+  },
+}) => {
   return (
     <div>
       <Layout>
-        <h1>Blog Page</h1>
+        <h1>Blog</h1>
         <ol className={styles.posts}>
-          {edges.map(edge => (
+          {nodes.map(node => (
             <li className={styles.post}>
               <h2>
-                <Link to={`/blog/${edge.node.fields.slug}`}>
-                  {edge.node.frontmatter.title}
-                </Link>
+                <Link to={`/blog/${node.slug}`}>{node.title}</Link>
               </h2>
-              <p>{edge.node.frontmatter.date}</p>
+              <p>{node.publishedDate}</p>
             </li>
           ))}
         </ol>
@@ -45,3 +40,46 @@ const BlogPage = () => {
 }
 
 export default BlogPage
+
+/* Legacy?
+
+  // const {
+  //   allMarkdownRemark: { edges },
+  // } = useStaticQuery(graphql`
+  //   query {
+  //     allMarkdownRemark {
+  //       edges {
+  //         node {
+  //           frontmatter {
+  //             title
+  //             date
+  //           }
+  //           fields {
+  //             slug
+  //           }
+  //         }
+  //       }
+  //     }
+  //   }
+  // `)
+  // return (
+  //   <div>
+  //     <Layout>
+  //       <h1>Blog Page</h1>
+  //       <ol className={styles.posts}>
+  //         {edges.map(edge => (
+  //           <li className={styles.post}>
+  //             <h2>
+  //               <Link to={`/blog/${edge.node.fields.slug}`}>
+  //                 {edge.node.frontmatter.title}
+  //               </Link>
+  //             </h2>
+  //             <p>{edge.node.frontmatter.date}</p>
+  //           </li>
+  //         ))}
+  //       </ol>
+  //     </Layout>
+  //   </div>
+  // )
+
+*/
