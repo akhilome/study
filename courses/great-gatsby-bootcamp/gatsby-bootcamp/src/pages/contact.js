@@ -1,11 +1,13 @@
 import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
+import Head from "../components/head"
 
 const ContactPage = () => {
   return (
     <div>
       <Layout>
+        <Head title="Contact" />
         <h1>I'm Available For A Chat!</h1>
         <p>You can hit me up on any of the following plaforms</p>
         <ul>
