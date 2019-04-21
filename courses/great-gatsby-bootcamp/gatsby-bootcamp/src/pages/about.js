@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Head from "../components/head"
+import React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../components/layout';
+import Head from '../components/head';
 
 const AboutPage = () => {
   return (
@@ -59,12 +59,12 @@ const AboutPage = () => {
         </ul>
         <h1>Say Hi</h1>
         <p>
-          You can find out how to reach out to me from{" "}
+          You can find out how to reach out to me from{' '}
           <Link to="/contact">here</Link>
         </p>
       </Layout>
     </div>
-  )
-}
+  );
+};
 
-export default AboutPage
+export default AboutPage;

@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Head from "../components/head"
+import React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../components/layout';
+import Head from '../components/head';
 
 const Index = () => (
   <div>
@@ -14,6 +14,6 @@ const Index = () => (
       </p>
     </Layout>
   </div>
-)
+);
 
-export default Index
+export default Index;

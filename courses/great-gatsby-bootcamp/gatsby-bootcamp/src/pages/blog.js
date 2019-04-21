@@ -1,8 +1,8 @@
-import React from "react"
-import Layout from "../components/layout"
-import { graphql, Link } from "gatsby"
-import styles from "./blog.module.scss"
-import Head from "../components/head"
+import React from 'react';
+import Layout from '../components/layout';
+import { graphql, Link } from 'gatsby';
+import styles from './blog.module.scss';
+import Head from '../components/head';
 
 export const query = graphql`
   query {
@@ -14,7 +14,7 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
 const BlogPage = ({
   data: {
@@ -38,10 +38,10 @@ const BlogPage = ({
         </ol>
       </Layout>
     </div>
-  )
-}
+  );
+};
 
-export default BlogPage
+export default BlogPage;
 
 /* Legacy?
 
