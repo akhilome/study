@@ -1,8 +1,8 @@
-import React from "react"
-import Layout from "../components/layout"
-import { graphql } from "gatsby"
-import { documentToReactComponents } from "@contentful/rich-text-react-renderer"
-import Head from "../components/head"
+import React from 'react';
+import Layout from '../components/layout';
+import { graphql } from 'gatsby';
+import { documentToReactComponents } from '@contentful/rich-text-react-renderer';
+import Head from '../components/head';
 
 // // Sourcing from md in fs
 // export const query = graphql`
@@ -42,7 +42,7 @@ export const query = graphql`
       }
     }
   }
-`
+`;
 
 const Blog = ({
   data: {
@@ -55,17 +55,17 @@ const Blog = ({
 }) => {
   const options = {
     renderNode: {
-      "embedded-asset-block": ({
+      'embedded-asset-block': ({
         data: {
           target: { fields },
         },
       }) => {
-        const alt = fields.title["en-US"]
-        const url = fields.file["en-US"].url
-        return <img alt={alt} src={url} />
+        const alt = fields.title['en-US'];
+        const url = fields.file['en-US'].url;
+        return <img alt={alt} src={url} />;
       },
     },
-  }
+  };
   return (
     <Layout>
       <Head title={title} />
@@ -73,7 +73,7 @@ const Blog = ({
       <p>{publishedDate}</p>
       {documentToReactComponents(json, options)}
     </Layout>
-  )
-}
+  );
+};
 
-export default Blog
+export default Blog;

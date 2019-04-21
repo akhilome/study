@@ -1,7 +1,7 @@
-import React from "react"
-import { Link } from "gatsby"
-import Layout from "../components/layout"
-import Head from "../components/head"
+import React from 'react';
+import { Link } from 'gatsby';
+import Layout from '../components/layout';
+import Head from '../components/head';
 
 const ContactPage = () => {
   return (
@@ -18,7 +18,7 @@ const ContactPage = () => {
             Twitter: <a href="https://twitter.com/devkizito">@devkizito</a>
           </li>
           <li>
-            LinkedIn:{" "}
+            LinkedIn:{' '}
             <a href="https://linkedin.com/in/kizitoakhilome">Kizito Akhilome</a>
           </li>
         </ul>
@@ -28,7 +28,7 @@ const ContactPage = () => {
         <p>Looking forward to your message!</p>
       </Layout>
     </div>
-  )
-}
+  );
+};
 
-export default ContactPage
+export default ContactPage;
