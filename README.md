@@ -60,7 +60,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ] [MongoDB for Developers](https://university.mongodb.com/courses/M101P/about)
 - [ ] [The Complete Node.js Developer Course (3rd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/)
 - [ ] [Node JS: Advanced Concepts](https://www.udemy.com/advanced-node-for-developers/)
-- [ ] [Angular Deep Dive](./meta/deep-dives/angular.md)
+- [ ] [Angular Deep Dive](./guides/deep-dives/angular.md)
 
 #### Udacity Full Stack Nanodegree Curriculum
 
