@@ -34,7 +34,7 @@ Study each item thoroughly. Type the code. Understand how it works.
 - [ ] Project: Pick a template from [here](https://freebiesbug.com/psd-freebies/website-template/), [here](http://www.free-css.com/free-css-templates) or [here](http://www.os-templates.com/free-website-templates) and implement an Angular application with it as your inspiration (do not use its assets)
 - [ ] Official Docs: [JavaScript Guide on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) study thoroughly three chapters
 
-# Tier 2 - beyond basics
+## Tier 2 - beyond basics
 
 Study each item thoroughly. Type the code. Understand how it works.
 
@@ -63,7 +63,7 @@ Study each item thoroughly. Type the code. Understand how it works.
 - [ ] Project: Pick a template from [here](https://freebiesbug.com/psd-freebies/website-template/), [here](http://www.free-css.com/free-css-templates) or [here](http://www.os-templates.com/free-website-templates) and implement an Angular application with it as your inspiration (do not use its assets)
 - [ ] Official Docs: [JavaScript Guide on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) study thoroughly three chapters
 
-# Tier 3 - intermediate
+## Tier 3 - intermediate
 
 Study each item thoroughly. Type the code. Understand how it works.
 
@@ -98,7 +98,7 @@ Study each item thoroughly. Type the code. Understand how it works.
 - [ ] Project: [CodeWars](https://www.codewars.com/) - complete 20 problems using TypeScript
 - [ ] Official Docs: [JavaScript Guide on MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide) study thoroughly three chapters
 
-# Tier 4 - beyond intermediate
+## Tier 4 - beyond intermediate
 
 Study each item thoroughly. Type the code. Understand how it works.
 
