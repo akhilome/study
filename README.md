@@ -1,10 +1,8 @@
 # Always Be Learning
 
-Lifelong Learning.
+Lifelong Learning. 🤷🏾‍♂️
 
 ## Progress
-
-**Current Course(s)**: [Modern React With Redux](https://www.udemy.com/react-redux/)
 
 | Date Finished | Activity   | Link to Notes                                                                                                        |
 | ------------- | ---------- | -------------------------------------------------------------------------------------------------------------------- |
@@ -36,7 +34,7 @@ Lifelong Learning.
 | 21-04-2019    | Course     | [The Great Gatsby Bootcamp](courses/great-gatsby-bootcamp)                                                           |
 |               |            |                                                                                                                      |
 
-## Backlog.
+## Backlog
 
 Work through these courses, read the books listed below, and frequently supplement with "project ideas" listed below.
 
@@ -62,6 +60,7 @@ Work through these courses, read the books listed below, and frequently suppleme
 - [ ] [MongoDB for Developers](https://university.mongodb.com/courses/M101P/about)
 - [ ] [The Complete Node.js Developer Course (3rd Edition)](https://www.udemy.com/the-complete-nodejs-developer-course-2/)
 - [ ] [Node JS: Advanced Concepts](https://www.udemy.com/advanced-node-for-developers/)
+- [ ] [Angular Deep Dive](./meta/deep-dives/angular.md)
 
 #### Udacity Full Stack Nanodegree Curriculum
 
