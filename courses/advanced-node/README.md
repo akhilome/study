@@ -83,8 +83,48 @@ pm2 monit
 pm2 delete <app-name>
 ```
 
-- Docs -> [pm2.io](https://pm2.io/doc/en/runtime/overview/)
+- Docs &rarr; [pm2.io](https://pm2.io/doc/en/runtime/overview/)
 
 ### Worker Threads
 
 instructor advices we pay not much attention to worker thread since it's still very experimental in node but rather reach out for clustering when whatever application that is being built calls for some form of concurrency.
+
+### Redis & Caching
+
+In this section the author makes use of Redis to setup a caching layer for our application to enable faster reads for data.
+
+Library being used &rarr; [redis](https://www.npmjs.com/package/redis)
+
+Redis is a key value data store
+
+#### Using Redis in Node
+
+```js
+const REDIS_URL = 'redis://localhost:6379';
+
+const redis = require('redis');
+const client = redis.createClient(REDIS_URL);
+// 👆🏾 this client would be used for saving & retrieving from the redis instance
+
+/* ... */
+```
+
+##### Saving Data
+
+```js
+/* ... */
+
+client.set('key', 'value to associate with key');
+
+/* ... */
+```
+
+##### Getting Data
+
+```js
+/* ... */
+
+client.get('key');
+
+/* ... */
+```
