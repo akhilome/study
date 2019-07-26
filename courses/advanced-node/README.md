@@ -128,3 +128,68 @@ client.get('key');
 
 /* ... */
 ```
+
+#### On Nested Hashes
+
+Nested "objects" can be saved into a redis store equivalent to the following structure:
+
+```json
+{
+  "drake": {
+    "1": "Thank Me Later",
+    "2": "Take Care",
+    "3": "Nothing Was The Same"
+  },
+  "cole": {
+    "1": "The Sideline Story",
+    "2": "Born Sinner",
+    "3": "2014 Forest Hills Drive"
+  },
+  "lamar": {
+    "1": "Section.80",
+    "2": "Good Kid, M.A.A.D City",
+    "3": "To Pimp a Butterfly"
+  }
+}
+```
+
+To acheive this, the `hset()` & `hget()` methods are employed.
+
+##### `hset`
+
+```js
+/* ... */
+
+client.hset('cole', '4', '4 Your Eyez Only');
+
+/* ... */
+```
+
+This alters the cole object in the redis store to the following:
+
+```json
+  "cole": {
+    "1": "The Sideline Story",
+    "2": "Born Sinner",
+    "3": "2014 Forest Hills Drive",
+    "4": "4 Your Eyez Only"
+  }
+```
+
+##### `hget`
+
+```js
+/* ... */
+
+client.hget('drake', '3', (err, data) => {
+  console.log(data);
+});
+
+/* ... */
+```
+
+This logs `Nothing Was The Same` to the console.
+
+#### Note:
+
+remember to stringify data structures (e.g, objects and arrays) other than numbers and strings before saving into the redis datastore.
