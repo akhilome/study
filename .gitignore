@@ -76,3 +76,8 @@ yarn.lock
 
 # Next JS
 .next
+
+# Serverless framework
+.serverless/
+.dynamodb/
+
