@@ -1,0 +1,10 @@
+{
+  "name": "advanced-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "webworker-threads": "^0.7.17"
+  }
+}
