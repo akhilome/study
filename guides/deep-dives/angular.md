@@ -17,7 +17,7 @@ Study each item thoroughly. Type the code. Understand how it works.
 
 ---
 
-- [ ] Official Docs: [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
+- [x] Official Docs: [TypeScript in 5 minutes](https://www.typescriptlang.org/docs/handbook/typescript-in-5-minutes.html)
 - [ ] Official Docs: [Angular](https://angular.io/) - About Angular, all sections, pay special attention to the resources section, and within it: Angular CLI, Augury, Codelyzer, Lite-Server, and Ionic.
 - [ ] Official Docs: [Angular](https://angular.io/) - Getting Started
 - [ ] Official Docs: [Angular](https://angular.io/) - Tutorial, all sections
